@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "495814820977",
+    "project_id": "victusadownloaders",
+    "storage_bucket": "victusadownloaders.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495814820977:android:58fcafe24dbec70d48c7d0",
+        "android_client_info": {
+          "package_name": "com.video.victusadownloaders"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMPP1joFA5nmFHLKxSLyGVMI5Wy9_yzQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

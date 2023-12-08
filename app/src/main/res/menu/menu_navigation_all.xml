@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_trending"
+        android:icon="@drawable/trending_icon"
+        android:title="@string/trending" />
+
+    <item
+        android:id="@+id/navigation_discover"
+        android:icon="@drawable/explore_icon"
+        android:title="@string/discover" />
+
+    <item
+        android:id="@+id/navigation_library"
+        android:icon="@drawable/library_icon"
+        android:title="@string/library" />
+
+</menu>

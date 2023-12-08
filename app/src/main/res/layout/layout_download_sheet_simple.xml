@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    ads:behavior_hideable="true"
+    ads:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <Button
+        android:id="@+id/btnDownloadSheetSimple"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:background="@null"
+        android:text="@string/download"
+        android:textSize="18.0sp" />
+
+    <LinearLayout
+        android:id="@+id/layoutFbBannerContainerSheetSingle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/tvTitleLayoutDownloadSheetSimple"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:drawableLeft="@drawable/xic_video"
+        android:drawablePadding="10.0dip"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/tvSizeDownloadSheetSimple"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:drawableLeft="@drawable/xic_size"
+        android:drawablePadding="10.0dip"
+        android:gravity="center_vertical"
+        android:padding="5.0dip"
+        android:textSize="14.0sp" />
+</LinearLayout>

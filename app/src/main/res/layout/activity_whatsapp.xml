@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imBack"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:layout_centerVertical="true"
+                    android:tint="@color/black"
+                    android:src="@drawable/ic_round_arrow_back_24" />
+                <ImageView
+                    android:id="@+id/imInfo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_about"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    app:tint="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/LLOpenWhatsapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/rectangle_white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/TVTitle"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/gr"
+                        android:padding="15dp"
+                        android:src="@drawable/what_icn"
+                        android:tint="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvAppName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TVTitle"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text="WA"
+                        android:fontFamily="@font/bold"
+                        android:textColor="@color/black"
+                        android:textSize="24dp"
+                        android:visibility="visible" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RLTab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RLTopLayout"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_white"
+                android:elevation="1dp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp">
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_white"
+                    android:elevation="0dp"
+                    app:tabGravity="fill"
+                    app:tabIndicatorHeight="0dp"
+                    app:tabMode="fixed"
+                    app:tabPaddingEnd="0dp"
+                    app:tabPaddingStart="0dp"
+                    app:tabRippleColor="@null"
+                    app:tabSelectedTextColor="@color/colorAccent"
+                    app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+                    app:tabTextColor="@color/youtube_primary_color"
+
+                    />
+            </RelativeLayout>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/adView"
+                android:layout_below="@+id/RLTab"
+                android:padding="10dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/nativeAd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvAllowAccess"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_white"
+                android:backgroundTint="#27FF2718"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/bold"
+                android:text="@string/allow_whatsapp_access"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+
+    </RelativeLayout>
+</layout>

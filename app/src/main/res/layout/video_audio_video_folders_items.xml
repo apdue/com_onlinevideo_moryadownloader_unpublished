@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+   app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="1dp"
+    android:backgroundTint="#F9F9F9"
+    android:background="@drawable/custom_ripple"
+    android:orientation="vertical"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6.0dip"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:id="@+id/folderIcon"
+            android:layout_width="65.0dip"
+            android:layout_height="65.0dip"
+            android:padding="10dp"
+            app:srcCompat="@drawable/xic_video"
+            app:tint="#E77363" />
+
+        <TextView
+            android:id="@+id/folderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_toRightOf="@+id/folderIcon"
+            android:text="Whatsapp Videos"
+            android:textColor="@color/textColor"
+            android:textSize="17.0dip" />
+
+    <TextView
+        android:id="@+id/totalVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/folderName"
+        android:layout_marginLeft="6.0dip"
+        android:layout_toRightOf="@+id/folderIcon"
+        android:text="110 Videos"
+        android:textColor="#ff666666"
+        android:textSize="15.0dip" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

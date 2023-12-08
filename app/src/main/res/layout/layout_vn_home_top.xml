@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#ffdfdfdf">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5.0dip"
+            android:visibility="gone"
+            app:srcCompat="@drawable/xvideo_downloader" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:orientation="horizontal"
+            android:weightSum="5.0">
+
+            <LinearLayout
+                android:id="@+id/fb_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="45.0dip"
+                    android:layout_height="45.0dip"
+                    app:srcCompat="@drawable/fb_home_view" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:text="Fb"
+                    android:textColor="@color/black"
+                    android:textSize="10.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/vimeo_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="45.0dip"
+                    android:layout_height="45.0dip"
+                    app:srcCompat="@drawable/xvimeo_home" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:text="Vimeo"
+                    android:textColor="@color/black"
+                    android:textSize="10.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/whatsapp_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="45.0dip"
+                    android:layout_height="45.0dip"
+                    app:srcCompat="@drawable/xwhat_home" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="What Status"
+                    android:textColor="@color/black"
+                    android:textSize="10.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dailymotion_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    app:srcCompat="@drawable/xinsta_post_saver" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:text="Insta Post"
+                    android:textColor="@color/black"
+                    android:textSize="10.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/twitter_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="45.0dip"
+                    android:layout_height="45.0dip"
+                    app:srcCompat="@drawable/xtubidy_home" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:text="tubidy"
+                    android:textColor="@color/black"
+                    android:textSize="10.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/instagram_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="45.0dip"
+                    android:layout_height="45.0dip"
+                    app:srcCompat="@drawable/xinsta_post_view" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:text="insta post"
+                    android:textColor="@color/black"
+                    android:textSize="10.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

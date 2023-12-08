@@ -1,0 +1,232 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ToolBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/abc_action_bar_default_height_material"
+        android:visibility="gone">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.dailymotion.android.player.sdk.PlayerWebView
+        android:id="@+id/dm_player_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="215dp">
+    </com.dailymotion.android.player.sdk.PlayerWebView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white">
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/fbadsnative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:minHeight="250dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:id="@+id/fl_adplaceholderr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/native_ad_containerr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardr"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:visibility="gone"
+        android:text="Video Will Play Here"/>
+
+    <LinearLayout
+        android:id="@+id/action_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHideControls"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:maxWidth="125dp"
+                android:text="Hide controls"/>
+
+            <Button
+                android:id="@+id/btnToggleControls"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:maxWidth="125dp"
+                android:visibility="gone"
+                android:text="Toggle controls"/>
+
+            <Button
+                android:id="@+id/btnShowControls"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:maxWidth="125dp"
+                android:visibility="gone"
+                android:text="Show controls"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnPlay"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:maxWidth="125dp"
+                android:text="Play"/>
+
+            <Button
+                android:id="@+id/btnTogglePlay"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:maxWidth="125dp"
+                android:text="Toggle play"/>
+
+            <Button
+                android:id="@+id/btnPause"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:maxWidth="125dp"
+                android:text="Pause"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSeek"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="125dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:maxWidth="250dp"
+                android:visibility="gone"
+                android:text="Seek to 30s"/>
+
+            <Button
+                android:id="@+id/btnSetSubtitle"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="125dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:maxWidth="125dp"
+                android:visibility="gone"
+                android:text="Subtitles to EN"/>
+
+            <Button
+                android:id="@+id/btnSetQuality"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="125dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:maxWidth="125dp"
+                android:visibility="gone"
+                android:text="Quality to 240p"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnLoadVideo"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="125dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:maxWidth="125dp"
+                android:visibility="gone"
+                android:text="Load video"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/logText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#efefef"
+            android:visibility="gone"
+            android:text="Events trace"/>
+
+    </LinearLayout>
+
+</LinearLayout>

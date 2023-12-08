@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8.0dip"
+    app:cardBackgroundColor="@color/colorLightGray"
+    app:cardCornerRadius="2.0dip"
+    app:cardElevation="5.0dip">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgIcThumbnailItemVideo"
+                android:layout_width="fill_parent"
+                android:layout_height="215.0dip"
+                android:elevation="2.0dip"
+                android:scaleType="centerCrop"
+                android:visibility="visible"
+                app:srcCompat="@color/colorLightGray" />
+
+            <ImageView
+                android:id="@+id/imgIcPlayItemVideo"
+                android:layout_width="36.0dip"
+                android:layout_height="36.0dip"
+                android:layout_centerInParent="true"
+                android:elevation="5.0dip"
+                app:srcCompat="@drawable/xplay_icon" />
+
+            <com.dailymotion.android.player.sdk.PlayerWebView
+                android:id="@+id/playerViewItemVideo"
+                android:layout_width="fill_parent"
+                android:layout_height="215.0dip"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dip"
+        >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvVideoTitleItemVideo"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_eye" />
+
+                <TextView
+                    android:id="@+id/tvTotalViewsItemVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:textColor="@color/iconsGrayColor"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/xic_thumbs_up" />
+
+                <TextView
+                    android:id="@+id/tvTotalLikesItemVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:textColor="@color/iconsGrayColor"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgIcShareItemVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/ic_share_black_24dp"
+                    app:tint="@color/iconsGrayColor" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvVideoTitleItemVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@id/imgIcDownloadItemVideo"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:maxLines="2" />
+
+
+            <Button
+                android:id="@+id/imgIcDownloadItemVideo"
+                android:layout_width="120dp"
+                android:layout_height="40.0dip"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:backgroundTint="@color/orange"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerInside"
+                android:text="DOWNLOAD"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

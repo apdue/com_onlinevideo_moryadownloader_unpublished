@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5.0dip">
+
+    <ImageView
+        android:id="@+id/icSearchItemSuggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20.0dip"
+        app:srcCompat="@drawable/ic_search_gray" />
+
+    <ImageView
+        android:id="@+id/imgIcMoveUpSuggestionListList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="5.0dip"
+        app:srcCompat="@drawable/xic_up_left" />
+
+    <TextView
+        android:id="@+id/tvTitleSuggestionList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/imgIcMoveUpSuggestionListList"
+        android:layout_toRightOf="@id/icSearchItemSuggestion"
+        android:ellipsize="end"
+        android:lines="1"
+        android:maxLines="1"
+        android:paddingRight="5.0dip"
+        android:textColor="@color/gnt_black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/tvSubTitleSuggestionList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitleSuggestionList"
+        android:layout_toLeftOf="@id/imgIcMoveUpSuggestionListList"
+        android:layout_toRightOf="@id/icSearchItemSuggestion"
+        android:ellipsize="end"
+        android:lines="1"
+        android:maxLines="1"
+        android:paddingRight="5.0dip"
+        android:textSize="13.0sp" />
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnOkDialogFbHelp"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginBottom="20.0dip"
+        android:background="@drawable/bg_rec_round_corner_primary"
+        android:text="Got it"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20.0sp" />
+
+    <ImageView
+        android:id="@+id/imgGifFbHelp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Double tap on video to download"
+        android:textSize="22.0sp" />
+</LinearLayout>

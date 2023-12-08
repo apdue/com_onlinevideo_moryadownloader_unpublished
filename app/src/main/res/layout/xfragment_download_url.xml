@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/downloadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="43.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/xradius_btn"
+        android:paddingLeft="30.0dip"
+        android:paddingRight="30.0dip"
+        android:text="Download"
+        android:visibility="gone"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:id="@+id/downloadUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="#ffffffff"
+        android:visibility="gone"
+        android:hint="Paste Video URL here"
+        android:padding="10.0dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="40.0dip"
+        android:layout_marginRight="20.0dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You can Download videos from many social media website"
+            android:textColor="#ff3d3a3a"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:visibility="gone"
+            android:text="- Facebook"
+            android:textColor="#ff3d3a3a" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:visibility="gone"
+            android:text="- Vimeo"
+            android:textColor="#ff3d3a3a" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:visibility="gone"
+            android:text="- Dailymotion"
+            android:textColor="#ff3d3a3a" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="- Instagram"
+            android:visibility="gone"
+            android:textColor="#ff3d3a3a" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:visibility="gone"
+            android:text="- whatsup saver"
+            android:textColor="#ff3d3a3a" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50.0dip"
+        android:text="Paste Video Link Here."
+        android:textColor="#ff3d3a3a"
+        android:visibility="gone"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50.0dip"
+        android:layout_marginLeft="10dp"
+        android:text="- This app does not belong to nor is authorized by any social media sites."
+        android:textColor="#ff3d3a3a"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50.0dip"
+        android:text="Dhami Info Tech"
+        android:textColor="#ff3d3a3a"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10.0dip"
+        android:text="conatct us : akashpatel.123@yahoo.com"
+        android:textColor="#ff3d3a3a"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10.0dip"
+        android:text="Read Privacy Policy Before Using App"
+        android:textColor="#ff3d3a3a"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
