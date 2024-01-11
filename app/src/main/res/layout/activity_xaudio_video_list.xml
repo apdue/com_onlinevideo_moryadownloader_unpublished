@@ -10,7 +10,7 @@
         android:id="@+id/hello"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_audio_video_list">
+        android:background="@drawable/bg_audio_video_list_rand">
 
         <TextView
             android:id="@+id/tv_folder_title"

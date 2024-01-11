@@ -56,7 +56,7 @@ public class LocalStatisticStreamItemHolder extends LocalItemHolder {
 		
 		if (item.duration > 0) {
 			itemDurationView.setText(Localization.getDurationString(item.duration));
-			itemDurationView.setBackgroundResource(R.drawable.duration_background);
+			itemDurationView.setBackgroundResource(R.drawable.duration_background_rand);
 			itemDurationView.setVisibility(View.VISIBLE);
 		}
 		else {

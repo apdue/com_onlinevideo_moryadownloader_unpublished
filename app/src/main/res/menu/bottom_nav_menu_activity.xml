@@ -4,13 +4,13 @@
     <item
         android:id="@+id/menuItemHomeVideosActivity"
         android:enabled="true"
-        android:icon="@drawable/home"
+        android:icon="@drawable/home_rand"
         android:title="Home"
         app:showAsAction="always|withText" />
     <item
         android:id="@+id/menuItemVideosVideosActivity"
         android:enabled="true"
-        android:icon="@drawable/ic_videos"
+        android:icon="@drawable/ic_videos_rand"
         android:title="Videos"
         app:showAsAction="always|withText" />
 </menu>

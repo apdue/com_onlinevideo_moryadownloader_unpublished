@@ -4,7 +4,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/rectangle_white"
+        android:background="@drawable/rectangle_white_rand"
         android:elevation="3dp"
         android:layout_margin="5dp"
         android:padding="10dp">
@@ -32,7 +32,7 @@
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:background="@drawable/rectangle_white"
+                android:background="@drawable/rectangle_white_rand"
                 android:backgroundTint="@color/youtube_primary_color"
                 android:gravity="center"
                 android:fontFamily="@font/bold"

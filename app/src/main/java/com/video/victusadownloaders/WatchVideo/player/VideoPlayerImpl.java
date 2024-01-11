@@ -645,7 +645,7 @@ public class VideoPlayerImpl extends VideoPlayer implements View.OnLayoutChangeL
         final boolean orientationLocked = PlayerHelper.globalScreenOrientationLocked(service);
         final boolean showButton = videoPlayerSelected() && (orientationLocked || isVerticalVideo);
         screenRotationButton.setVisibility(showButton ? View.VISIBLE : View.GONE);
-        screenRotationButton.setImageDrawable(ContextCompat.getDrawable(service, isFullscreen() ? R.drawable.ic_fullscreen_exit_white_24dp : R.drawable.ic_fullscreen_white_24dp));
+        screenRotationButton.setImageDrawable(ContextCompat.getDrawable(service, isFullscreen() ? R.drawable.ic_fullscreen_exit_white_24dp_rand : R.drawable.ic_fullscreen_white_24dp_rand));
     }
 
     private void prepareOrientation(int width, int height) {
@@ -747,7 +747,7 @@ public class VideoPlayerImpl extends VideoPlayer implements View.OnLayoutChangeL
     @Override
     public void onBlocked() {
         super.onBlocked();
-        playPauseButton.setImageResource(R.drawable.ic_play_arrow_white_24dp);
+        playPauseButton.setImageResource(R.drawable.ic_play_arrow_white_24dp_rand);
         animatePlayButtons(false, 100);
         getRootView().setKeepScreenOn(false);
 
@@ -768,7 +768,7 @@ public class VideoPlayerImpl extends VideoPlayer implements View.OnLayoutChangeL
     public void onPlaying() {
         super.onPlaying();
         AnimationUtils.animateView(playPauseButton, AnimationUtils.Type.ALPHA, false, 80, 0, () -> {
-            playPauseButton.setImageResource(R.drawable.ic_pause_white_24dp);
+            playPauseButton.setImageResource(R.drawable.ic_pause_white_24dp_rand);
             animatePlayButtons(true, 200);
             if (!queueVisible) {
                 playPauseButton.requestFocus();
@@ -786,7 +786,7 @@ public class VideoPlayerImpl extends VideoPlayer implements View.OnLayoutChangeL
     public void onPaused() {
         super.onPaused();
         AnimationUtils.animateView(playPauseButton, AnimationUtils.Type.ALPHA, false, 80, 0, () -> {
-            playPauseButton.setImageResource(R.drawable.ic_play_arrow_white_24dp);
+            playPauseButton.setImageResource(R.drawable.ic_play_arrow_white_24dp_rand);
             animatePlayButtons(true, 200);
             if (!queueVisible) {
                 playPauseButton.requestFocus();
@@ -817,7 +817,7 @@ public class VideoPlayerImpl extends VideoPlayer implements View.OnLayoutChangeL
     @Override
     public void onCompleted() {
         AnimationUtils.animateView(playPauseButton, AnimationUtils.Type.SCALE_AND_ALPHA, false, 0, 0, () -> {
-            playPauseButton.setImageResource(R.drawable.ic_replay_white_24dp);
+            playPauseButton.setImageResource(R.drawable.ic_replay_white_24dp_rand);
             animatePlayButtons(true, DEFAULT_CONTROLS_DURATION);
         });
 

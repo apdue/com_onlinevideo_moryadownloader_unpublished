@@ -34,7 +34,7 @@
                         android:layout_marginBottom="10dp"
                         android:padding="5dp"
                         android:tint="@color/black"
-                        android:src="@drawable/ic_round_arrow_back_24" />
+                        android:src="@drawable/ic_round_arrow_back_24_rand" />
 
                     <ImageView
                         android:id="@+id/imInfo"
@@ -44,7 +44,7 @@
                         android:layout_centerVertical="true"
                         android:layout_margin="10dp"
                         android:padding="10dp"
-                        android:src="@drawable/ic_about"
+                        android:src="@drawable/ic_about_rand"
                         android:tint="@color/black"/>
                 </RelativeLayout>
 
@@ -61,7 +61,7 @@
                         android:layout_centerVertical="true"
                         android:layout_marginStart="15dp"
                         android:layout_marginEnd="15dp"
-                        android:background="@drawable/rectangle_white"
+                        android:background="@drawable/rectangle_white_rand"
                         android:padding="20dp"
                         >
 
@@ -80,7 +80,7 @@
                                 android:id="@+id/TVTitle"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
-                                android:src="@drawable/instagram_icn"
+                                android:src="@drawable/instagram_icn_rand"
                                 android:tint="@color/youtube_primary_color" />
 
                             <TextView
@@ -164,7 +164,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
                             android:layout_marginEnd="10dp"
-                            android:background="@drawable/social_item_bg"
+                            android:background="@drawable/social_item_bg_rand"
                             android:backgroundTint="@color/bg_color"
                             android:hint="@string/paste_link"
                             android:padding="15dp"
@@ -194,7 +194,7 @@
                                 <ImageView
                                     android:layout_width="15dp"
                                     android:layout_height="15dp"
-                                    android:src="@drawable/link"
+                                    android:src="@drawable/link_rand"
                                     android:layout_centerVertical="true"
                                     android:layout_marginStart="50dp"
                                     android:tint="@color/youtube_primary_color"
@@ -209,7 +209,7 @@
                                     android:layout_marginTop="2dp"
                                     android:layout_marginEnd="2dp"
                                     android:layout_marginBottom="2dp"
-                                    android:background="@drawable/btn_stroke"
+                                    android:background="@drawable/btn_stroke_rand"
                                     android:fontFamily="@font/bold"
                                     android:gravity="center"
                                     android:paddingStart="15dp"
@@ -237,7 +237,7 @@
                                     android:layout_marginEnd="2dp"
                                     android:layout_marginBottom="2dp"
                                     android:layout_weight="1"
-                                    android:background="@drawable/social_item_bg"
+                                    android:background="@drawable/social_item_bg_rand"
                                     android:fontFamily="@font/bold"
                                     android:gravity="center"
                                     android:paddingStart="20dp"
@@ -249,7 +249,7 @@
                                 <ImageView
                                     android:layout_width="20dp"
                                     android:layout_height="20dp"
-                                    android:src="@drawable/download"
+                                    android:src="@drawable/download_rand"
                                     android:layout_centerVertical="true"
                                     android:layout_marginStart="40dp"
                                     android:tint="@color/white"
@@ -288,7 +288,7 @@
                             android:layout_below="@+id/RLM"
                             android:layout_margin="5dp"
                             android:layout_marginBottom="10dp"
-                            android:background="@drawable/social_item_bg"
+                            android:background="@drawable/social_item_bg_rand"
                             android:gravity="center"
                             android:padding="8dp"
                             android:fontFamily="@font/bold"

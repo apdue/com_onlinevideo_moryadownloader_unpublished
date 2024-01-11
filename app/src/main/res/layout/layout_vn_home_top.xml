@@ -17,7 +17,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5.0dip"
             android:visibility="gone"
-            app:srcCompat="@drawable/xvideo_downloader" />
+            app:srcCompat="@drawable/xvideo_downloader_rand" />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -38,7 +38,7 @@
                 <ImageView
                     android:layout_width="45.0dip"
                     android:layout_height="45.0dip"
-                    app:srcCompat="@drawable/fb_home_view" />
+                    app:srcCompat="@drawable/fb_home_view_rand" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -60,7 +60,7 @@
                 <ImageView
                     android:layout_width="45.0dip"
                     android:layout_height="45.0dip"
-                    app:srcCompat="@drawable/xvimeo_home" />
+                    app:srcCompat="@drawable/xvimeo_home_rand" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -82,7 +82,7 @@
                 <ImageView
                     android:layout_width="45.0dip"
                     android:layout_height="45.0dip"
-                    app:srcCompat="@drawable/xwhat_home" />
+                    app:srcCompat="@drawable/xwhat_home_rand" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -106,7 +106,7 @@
                 <ImageView
                     android:layout_width="50.0dip"
                     android:layout_height="50.0dip"
-                    app:srcCompat="@drawable/xinsta_post_saver" />
+                    app:srcCompat="@drawable/xinsta_post_saver_rand" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -128,7 +128,7 @@
                 <ImageView
                     android:layout_width="45.0dip"
                     android:layout_height="45.0dip"
-                    app:srcCompat="@drawable/xtubidy_home" />
+                    app:srcCompat="@drawable/xtubidy_home_rand" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -150,7 +150,7 @@
                 <ImageView
                     android:layout_width="45.0dip"
                     android:layout_height="45.0dip"
-                    app:srcCompat="@drawable/xinsta_post_view" />
+                    app:srcCompat="@drawable/xinsta_post_view_rand" />
 
                 <TextView
                     android:layout_width="wrap_content"

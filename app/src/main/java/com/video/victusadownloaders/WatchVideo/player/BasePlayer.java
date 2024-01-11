@@ -1028,7 +1028,7 @@ public abstract class BasePlayer implements Player.EventListener, PlaybackListen
 
     @Nullable
     public Bitmap getThumbnail() {
-        return currentThumbnail == null ? BitmapFactory.decodeResource(context.getResources(), R.drawable.no_image) : currentThumbnail;
+        return currentThumbnail == null ? BitmapFactory.decodeResource(context.getResources(), R.drawable.no_image_rand) : currentThumbnail;
     }
 
     /**

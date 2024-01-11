@@ -13,7 +13,7 @@
         android:layout_height="112.5dp"
         android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/no_image" />
+        android:src="@drawable/no_image_rand" />
 
     <TextView
         android:id="@+id/itemDurationView"
@@ -23,7 +23,7 @@
         android:layout_alignBottom="@id/itemThumbnailView"
         android:layout_marginEnd="@dimen/video_item_search_duration_margin"
         android:layout_marginBottom="@dimen/video_item_search_duration_margin"
-        android:background="@drawable/duration_background"
+        android:background="@drawable/duration_background_rand"
         android:paddingLeft="@dimen/video_item_search_duration_horizontal_padding"
         android:paddingTop="@dimen/video_item_search_duration_vertical_padding"
         android:paddingRight="@dimen/video_item_search_duration_horizontal_padding"

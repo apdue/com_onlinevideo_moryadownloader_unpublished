@@ -104,19 +104,19 @@ public class MitronActivity extends AppCompatActivity {
         });
 
         Glide.with(activity)
-                .load(R.drawable.sc1)
+                .load(R.drawable.sc1_rand)
                 .into(binding.layoutHowTo.imHowto1);
 
         Glide.with(activity)
-                .load(R.drawable.sc2)
+                .load(R.drawable.sc2_rand)
                 .into(binding.layoutHowTo.imHowto2);
 
         Glide.with(activity)
-                .load(R.drawable.sc1)
+                .load(R.drawable.sc1_rand)
                 .into(binding.layoutHowTo.imHowto3);
 
         Glide.with(activity)
-                .load(R.drawable.mi2)
+                .load(R.drawable.mi2_rand)
                 .into(binding.layoutHowTo.imHowto4);
 
         binding.layoutHowTo.tvHowToHeadOne.setVisibility(View.GONE);

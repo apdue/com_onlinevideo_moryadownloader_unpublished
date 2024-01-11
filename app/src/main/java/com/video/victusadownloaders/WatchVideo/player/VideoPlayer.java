@@ -516,13 +516,13 @@ public abstract class VideoPlayer extends BasePlayer implements VideoListener,
     @Override
     public void onFastRewind() {
         super.onFastRewind();
-        showAndAnimateControl(R.drawable.ic_fast_rewind, true);
+        showAndAnimateControl(R.drawable.ic_fast_rewind_rand, true);
     }
 
     @Override
     public void onFastForward() {
         super.onFastForward();
-        showAndAnimateControl(R.drawable.ic_fast_forward, true);
+        showAndAnimateControl(R.drawable.ic_fast_forward_rand, true);
     }
 
     // OnClick related

@@ -122,19 +122,19 @@ public class InstagramActivity extends AppCompatActivity implements UserListInte
 
 
         Glide.with(activity)
-                .load(R.drawable.insta1)
+                .load(R.drawable.insta1_rand)
                 .into(binding.layoutHowTo.imHowto1);
 
         Glide.with(activity)
-                .load(R.drawable.insta2)
+                .load(R.drawable.insta2_rand)
                 .into(binding.layoutHowTo.imHowto2);
 
         Glide.with(activity)
-                .load(R.drawable.insta3)
+                .load(R.drawable.insta3_rand)
                 .into(binding.layoutHowTo.imHowto3);
 
         Glide.with(activity)
-                .load(R.drawable.insta4)
+                .load(R.drawable.insta4_rand)
                 .into(binding.layoutHowTo.imHowto4);
 
 

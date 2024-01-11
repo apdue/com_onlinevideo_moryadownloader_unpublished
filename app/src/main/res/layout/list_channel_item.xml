@@ -24,7 +24,7 @@
             android:id="@+id/icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_unsubscribe_white_24dp" />
+            android:src="@drawable/ic_unsubscribe_white_24dp_rand" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -52,7 +52,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginEnd="@dimen/video_item_search_image_right_margin"
-            android:src="@drawable/user_default"/>
+            android:src="@drawable/user_default_rand"/>
 
         <TextView
             android:id="@+id/itemTitleView"

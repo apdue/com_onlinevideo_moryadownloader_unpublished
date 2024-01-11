@@ -7,7 +7,7 @@
     android:layout_marginTop="20.0dip"
     android:layout_marginRight="20.0dip"
     android:layout_marginBottom="10.0dip"
-    android:background="@drawable/ic_bg_round_corner_primary"
+    android:background="@drawable/ic_bg_round_corner_primary_rand"
     android:text="Search"
     android:textAllCaps="false"
     android:textColor="@color/white"

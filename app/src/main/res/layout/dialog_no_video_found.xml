@@ -17,7 +17,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20.0dip"
-            android:background="@drawable/bg_rec_round_corner_primary"
+            android:background="@drawable/bg_rec_round_corner_primary_rand"
             android:text="@string/ok"
             android:textColor="@color/white"
             android:textSize="22.0sp" />
@@ -33,18 +33,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20.0dip"
-                app:srcCompat="@drawable/ic_download_circle_gray" />
+                app:srcCompat="@drawable/ic_download_circle_gray_rand" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20.0dip"
-                app:srcCompat="@drawable/ic_arrow_right" />
+                app:srcCompat="@drawable/ic_arrow_right_rand" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_download_circle_primary" />
+                app:srcCompat="@drawable/ic_download_circle_primary_rand" />
         </LinearLayout>
 
         <TextView

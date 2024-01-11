@@ -27,7 +27,7 @@
                     android:padding="5dp"
                     android:layout_centerVertical="true"
                     android:tint="@color/black"
-                    android:src="@drawable/ic_round_arrow_back_24" />
+                    android:src="@drawable/ic_round_arrow_back_24_rand" />
                 <ImageView
                     android:id="@+id/imInfo"
                     android:layout_width="50dp"
@@ -35,7 +35,7 @@
                     android:layout_margin="10dp"
                     android:padding="10dp"
                     android:visibility="gone"
-                    android:src="@drawable/ic_about"
+                    android:src="@drawable/ic_about_rand"
                     android:layout_centerVertical="true"
                     android:layout_alignParentEnd="true"
                     app:tint="@color/black" />
@@ -54,7 +54,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginStart="15dp"
                     android:layout_marginEnd="15dp"
-                    android:background="@drawable/rectangle_white"
+                    android:background="@drawable/rectangle_white_rand"
                     >
 
                     <ImageView
@@ -62,9 +62,9 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_centerHorizontal="true"
-                        android:background="@drawable/gr"
+                        android:background="@drawable/gr_rand"
                         android:padding="15dp"
-                        android:src="@drawable/what_icn"
+                        android:src="@drawable/what_icn_rand"
                         android:tint="@color/white" />
 
                     <TextView
@@ -92,7 +92,7 @@
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/rectangle_white"
+                android:background="@drawable/rectangle_white_rand"
                 android:elevation="1dp"
                 android:paddingStart="2dp"
                 android:paddingEnd="2dp">
@@ -101,7 +101,7 @@
                     android:id="@+id/tabs"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rectangle_white"
+                    android:background="@drawable/rectangle_white_rand"
                     android:elevation="0dp"
                     app:tabGravity="fill"
                     app:tabIndicatorHeight="0dp"
@@ -139,7 +139,7 @@
                 android:id="@+id/tvAllowAccess"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rectangle_white"
+                android:background="@drawable/rectangle_white_rand"
                 android:backgroundTint="#27FF2718"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"

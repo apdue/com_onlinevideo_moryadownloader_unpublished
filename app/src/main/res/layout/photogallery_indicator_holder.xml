@@ -28,7 +28,7 @@
                 android:background="@color/cardview_shadow_start_color"
                 android:padding="5dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/ic_play_arrow"
+                app:srcCompat="@drawable/ic_play_arrow_rand"
                 tools:ignore="ContentDescription" />
 
             <View

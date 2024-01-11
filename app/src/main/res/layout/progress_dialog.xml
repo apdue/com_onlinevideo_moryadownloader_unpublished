@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:layout_centerInParent="true"
-    android:background="@drawable/rectangle_trade_small_green"
+    android:background="@drawable/rectangle_trade_small_green_rand"
     android:backgroundTint="@color/white"
     android:elevation="3dp"
     android:padding="10dp"

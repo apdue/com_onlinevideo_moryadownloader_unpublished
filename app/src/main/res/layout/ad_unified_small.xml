@@ -92,7 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#FFF"
-                    android:background="@drawable/native_ad_tag"
+                    android:background="@drawable/native_ad_tag_rand"
                     android:text="Ad"
                     android:padding="2dp"
                     android:gravity="bottom"
@@ -129,7 +129,7 @@
                         android:layout_marginTop="3dp"
                         android:layout_marginBottom="3dp"
                         android:textColor="@color/white"
-                        android:background="@drawable/prime_gradient_splash"
+                        android:background="@drawable/prime_gradient_splash_rand"
                         android:textSize="12sp" />
 
 

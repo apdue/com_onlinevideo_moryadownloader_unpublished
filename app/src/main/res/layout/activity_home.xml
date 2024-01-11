@@ -22,14 +22,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:background="@drawable/card_corner"
+                android:background="@drawable/card_corner_rand"
                 android:minHeight="250dp">
 
                 <ImageView
                     android:id="@+id/ivAd"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
-                    android:src="@drawable/img8" />
+                    android:src="@drawable/img8_rand" />
 
             </RelativeLayout>
 
@@ -45,7 +45,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/prime_gradient" />
+                    android:src="@drawable/prime_gradient_rand" />
 
                 <ImageView
                     android:id="@+id/ic"
@@ -56,7 +56,7 @@
                     android:layout_marginTop="15dp"
                     android:layout_marginEnd="15dp"
                     android:layout_marginBottom="20dp"
-                    android:src="@drawable/video_icn"
+                    android:src="@drawable/video_icn_rand"
                     android:tint="@color/white" />
 
                 <LinearLayout
@@ -93,8 +93,8 @@
                     android:layout_gravity="bottom"
                     android:layout_marginStart="15dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/white_circle"
-                    android:src="@drawable/right"
+                    android:background="@drawable/white_circle_rand"
+                    android:src="@drawable/right_rand"
                     android:tint="#fe641e" />
 
                 <ImageView
@@ -104,7 +104,7 @@
                     android:layout_marginTop="-40dp"
                     android:layout_marginEnd="-20dp"
                     android:alpha="0.2"
-                    android:src="@drawable/white_circle" />
+                    android:src="@drawable/white_circle_rand" />
 
                 <ImageView
                     android:layout_width="100dp"
@@ -113,7 +113,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="-60dp"
                     android:alpha="0.2"
-                    android:src="@drawable/white_circle" />
+                    android:src="@drawable/white_circle_rand" />
 
                 <ImageView
                     android:layout_width="25dp"
@@ -121,7 +121,7 @@
                     android:layout_gravity="end"
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
-                    android:src="@drawable/sparkler"
+                    android:src="@drawable/sparkler_rand"
                     android:tint="@color/white" />
 
             </androidx.cardview.widget.CardView>
@@ -137,7 +137,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/prime_gradient" />
+                    android:src="@drawable/prime_gradient_rand" />
 
                 <ImageView
                     android:id="@+id/ic2"
@@ -148,7 +148,7 @@
                     android:layout_marginTop="15dp"
                     android:layout_marginEnd="15dp"
                     android:layout_marginBottom="20dp"
-                    android:src="@drawable/down_icn"
+                    android:src="@drawable/down_icn_rand"
                     android:tint="@color/white" />
 
                 <LinearLayout
@@ -185,8 +185,8 @@
                     android:layout_gravity="bottom"
                     android:layout_marginStart="15dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/white_circle"
-                    android:src="@drawable/right"
+                    android:background="@drawable/white_circle_rand"
+                    android:src="@drawable/right_rand"
                     android:tint="#fe641e" />
 
                 <ImageView
@@ -196,7 +196,7 @@
                     android:layout_marginTop="-40dp"
                     android:layout_marginEnd="-20dp"
                     android:alpha="0.2"
-                    android:src="@drawable/white_circle" />
+                    android:src="@drawable/white_circle_rand" />
 
                 <ImageView
                     android:layout_width="100dp"
@@ -205,7 +205,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="-60dp"
                     android:alpha="0.2"
-                    android:src="@drawable/white_circle" />
+                    android:src="@drawable/white_circle_rand" />
 
                 <ImageView
                     android:layout_width="25dp"
@@ -213,7 +213,7 @@
                     android:layout_gravity="end"
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
-                    android:src="@drawable/sparkler"
+                    android:src="@drawable/sparkler_rand"
                     android:tint="@color/white" />
 
 
@@ -230,7 +230,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/prime_gradient" />
+                    android:src="@drawable/prime_gradient_rand" />
 
                 <ImageView
                     android:id="@+id/ic3"
@@ -241,7 +241,7 @@
                     android:layout_marginTop="15dp"
                     android:layout_marginEnd="15dp"
                     android:layout_marginBottom="20dp"
-                    android:src="@drawable/instagram_icn"
+                    android:src="@drawable/instagram_icn_rand"
                     android:tint="@color/white" />
 
                 <LinearLayout
@@ -278,8 +278,8 @@
                     android:layout_gravity="bottom"
                     android:layout_marginStart="15dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/white_circle"
-                    android:src="@drawable/right"
+                    android:background="@drawable/white_circle_rand"
+                    android:src="@drawable/right_rand"
                     android:tint="#fe641e" />
 
                 <ImageView
@@ -289,7 +289,7 @@
                     android:layout_marginTop="-40dp"
                     android:layout_marginEnd="-20dp"
                     android:alpha="0.2"
-                    android:src="@drawable/white_circle" />
+                    android:src="@drawable/white_circle_rand" />
 
                 <ImageView
                     android:layout_width="100dp"
@@ -298,7 +298,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="-60dp"
                     android:alpha="0.2"
-                    android:src="@drawable/white_circle" />
+                    android:src="@drawable/white_circle_rand" />
 
                 <ImageView
                     android:layout_width="25dp"
@@ -306,7 +306,7 @@
                     android:layout_gravity="end"
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
-                    android:src="@drawable/sparkler"
+                    android:src="@drawable/sparkler_rand"
                     android:tint="@color/white" />
 
             </androidx.cardview.widget.CardView>
@@ -324,7 +324,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/img8" />
+                    android:src="@drawable/img8_rand" />
 
                 <TextView
                     android:id="@+id/yt_downloader_btnName"
@@ -351,7 +351,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:src="@drawable/img7" />
+                android:src="@drawable/img7_rand" />
 
         </LinearLayout>
 

@@ -188,10 +188,10 @@ public class Utility {
 	public static int getIconForFileType(FileType type) {
 		switch (type) {
 			case MUSIC:
-				return R.drawable.ic_music_download;
+				return R.drawable.ic_music_download_rand;
 			default:
 			case VIDEO:
-				return R.drawable.ic_video_download;
+				return R.drawable.ic_video_download_rand;
 		}
 	}
 	

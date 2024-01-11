@@ -520,11 +520,11 @@ public class VideoDetailFragment extends BaseStateFragment<StreamInfo> implement
         if (videoDescriptionRootLayout.getVisibility() == View.VISIBLE) {
             videoTitleTextView.setMaxLines(2);
             videoDescriptionRootLayout.setVisibility(View.GONE);
-            videoTitleToggleArrow.setImageResource(R.drawable.ic_arrow_down);
+            videoTitleToggleArrow.setImageResource(R.drawable.ic_arrow_down_rand);
         } else {
             videoTitleTextView.setMaxLines(20);
             videoDescriptionRootLayout.setVisibility(View.VISIBLE);
-            videoTitleToggleArrow.setImageResource(R.drawable.ic_arrow_up);
+            videoTitleToggleArrow.setImageResource(R.drawable.ic_arrow_up_rand);
         }
     }
 
@@ -1043,7 +1043,7 @@ public class VideoDetailFragment extends BaseStateFragment<StreamInfo> implement
 
     @Override
     public void showError(String message, boolean showRetryButton) {
-        showError(message, showRetryButton, R.drawable.no_image);
+        showError(message, showRetryButton, R.drawable.no_image_rand);
     }
 
     protected void showError(String message, boolean showRetryButton, @DrawableRes int imageError) {
@@ -1126,7 +1126,7 @@ public class VideoDetailFragment extends BaseStateFragment<StreamInfo> implement
         animateView(videoTitleTextView, true, 0);
 
         videoDescriptionRootLayout.setVisibility(View.GONE);
-        videoTitleToggleArrow.setImageResource(R.drawable.ic_arrow_down);
+        videoTitleToggleArrow.setImageResource(R.drawable.ic_arrow_down_rand);
         videoTitleToggleArrow.setVisibility(View.GONE);
         videoTitleRoot.setClickable(false);
 
@@ -1191,11 +1191,11 @@ public class VideoDetailFragment extends BaseStateFragment<StreamInfo> implement
 
         if (streamInfo.getDuration() > 0) {
             detailDurationView.setText(Localization.getDurationString(streamInfo.getDuration()));
-            detailDurationView.setBackgroundResource(R.drawable.duration_background);
+            detailDurationView.setBackgroundResource(R.drawable.duration_background_rand);
             animateView(detailDurationView, true, 100);
         } else if (streamInfo.getStreamType() == StreamType.LIVE_STREAM) {
             detailDurationView.setText(R.string.duration_live);
-            detailDurationView.setBackgroundResource(R.drawable.duration_background_live);
+            detailDurationView.setBackgroundResource(R.drawable.duration_background_live_rand);
             animateView(detailDurationView, true, 100);
         } else {
             detailDurationView.setVisibility(View.GONE);
@@ -1203,7 +1203,7 @@ public class VideoDetailFragment extends BaseStateFragment<StreamInfo> implement
 
         videoTitleRoot.setClickable(true);
         videoTitleToggleArrow.setVisibility(View.VISIBLE);
-        videoTitleToggleArrow.setImageResource(R.drawable.ic_arrow_down);
+        videoTitleToggleArrow.setImageResource(R.drawable.ic_arrow_down_rand);
         videoDescriptionView.setVisibility(View.GONE);
         videoDescriptionRootLayout.setVisibility(View.GONE);
 
@@ -1221,7 +1221,7 @@ public class VideoDetailFragment extends BaseStateFragment<StreamInfo> implement
 
         final boolean noVideoStreams = streamInfo.getVideoStreams().isEmpty() && streamInfo.getVideoOnlyStreams().isEmpty();
         detailControlsPopup.setVisibility(noVideoStreams ? View.GONE : View.VISIBLE);
-        thumbnailPlayButton.setImageResource(noVideoStreams ? R.drawable.ic_headset_white_shadow_24dp : R.drawable.ic_play_arrow_white_shadow_24dp);
+        thumbnailPlayButton.setImageResource(noVideoStreams ? R.drawable.ic_headset_white_shadow_24dp_rand : R.drawable.ic_play_arrow_white_shadow_24dp_rand);
     }
 
     private void showAgeRestrictedContent() {

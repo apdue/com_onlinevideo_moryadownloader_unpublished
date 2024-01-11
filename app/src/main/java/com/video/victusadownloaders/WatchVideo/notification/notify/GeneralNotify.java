@@ -55,7 +55,7 @@ public class GeneralNotify {
 		GFirebaseMessagingService.setVibrate(builder);
 		
 		// small icon
-		builder.setSmallIcon(R.drawable.ic_youtube_notification);
+		builder.setSmallIcon(R.drawable.ic_youtube_notification_rand);
 		// ticker is latest generalPush
 		builder.setTicker(generalPush.getAlert());
 		// intent

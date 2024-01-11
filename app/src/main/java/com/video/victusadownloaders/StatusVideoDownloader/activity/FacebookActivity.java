@@ -29,7 +29,7 @@ import com.androidnetworking.common.Priority;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONObjectRequestListener;
 import com.video.victusadownloaders.VideoSaver.PrefManagerVideo;
-import com.video.victusadownloaders.StatusVideoDownloader.StatusMainActivityVideo;
+import com.video.victusadownloaders.StatusVideoDownloader.StatusMainActivityVideoRand;
 import com.bumptech.glide.Glide;
 import io.awesome.gagtube.R;
 import io.awesome.gagtube.databinding.ActivityInstagramBinding;
@@ -108,7 +108,7 @@ public class FacebookActivity extends AppCompatActivity implements UserListInter
 
         binding.tvAppName.setText(activity.getResources().getString(R.string.facebook_app_name));
 
-        binding.TVTitle.setImageResource(R.drawable.fb);
+        binding.TVTitle.setImageResource(R.drawable.fb_rand);
         binding.tvLoginInstagram.setText(getResources().getString(R.string.download_stories));
         binding.imBack.setOnClickListener(view -> onBackPressed());
 
@@ -132,19 +132,19 @@ public class FacebookActivity extends AppCompatActivity implements UserListInter
 
 
         Glide.with(activity)
-                .load(R.drawable.fb1)
+                .load(R.drawable.fb1_rand)
                 .into(binding.layoutHowTo.imHowto1);
 
         Glide.with(activity)
-                .load(R.drawable.fb2)
+                .load(R.drawable.fb2_rand)
                 .into(binding.layoutHowTo.imHowto2);
 
         Glide.with(activity)
-                .load(R.drawable.fb3)
+                .load(R.drawable.fb3_rand)
                 .into(binding.layoutHowTo.imHowto3);
 
         Glide.with(activity)
-                .load(R.drawable.fb4)
+                .load(R.drawable.fb4_rand)
                 .into(binding.layoutHowTo.imHowto4);
 
 
@@ -255,7 +255,7 @@ public class FacebookActivity extends AppCompatActivity implements UserListInter
         try {
             binding.etText.setText("");
             String copyIntent = getIntent().getStringExtra("CopyIntent");
-            copyIntent= StatusMainActivityVideo.extractLinks(copyIntent);
+            copyIntent= StatusMainActivityVideoRand.extractLinks(copyIntent);
             if (copyIntent== null || copyIntent.equals("")) {
                 if (!(clipBoard.hasPrimaryClip())) {
                     Log.d(TAG, "PasteText");

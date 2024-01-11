@@ -10,7 +10,7 @@
     android:minHeight="?attr/actionBarSize"
     android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
     app:layout_scrollFlags="scroll|enterAlways|snap"
-    app:navigationIcon="@drawable/ic_back_white_24dp"
+    app:navigationIcon="@drawable/ic_back_white_24dp_rand"
     app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar"
     app:subtitleTextColor="@color/white"
     app:titleTextAppearance="@style/Toolbar.Title"

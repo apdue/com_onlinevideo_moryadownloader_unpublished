@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.video.victusadownloaders.WatchVideo.activities.WelcomeOne"
-    android:background="@drawable/bgback">
+    android:background="@drawable/bgback_rand">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/icon"
+        android:src="@drawable/icon_rand_rand"
         app:layout_constraintBottom_toTopOf="@+id/getstarted"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,7 +18,7 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:background="@drawable/button_color"
+        android:background="@drawable/button_color_rand"
         android:id="@+id/getstarted"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

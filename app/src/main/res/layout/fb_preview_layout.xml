@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_margin="3.0dip"
-        app:srcCompat="@drawable/ic_cancel_black_24dp" />
+        app:srcCompat="@drawable/ic_cancel_black_24dp_rand" />
 
     <ProgressBar
         android:id="@+id/progressBar"

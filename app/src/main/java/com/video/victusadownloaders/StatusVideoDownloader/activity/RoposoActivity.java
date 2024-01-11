@@ -98,19 +98,19 @@ public class RoposoActivity extends AppCompatActivity {
         });
 
         Glide.with(activity)
-                .load(R.drawable.r1)
+                .load(R.drawable.r1_rand)
                 .into(binding.layoutHowTo.imHowto1);
 
         Glide.with(activity)
-                .load(R.drawable.r2)
+                .load(R.drawable.r2_rand)
                 .into(binding.layoutHowTo.imHowto2);
 
         Glide.with(activity)
-                .load(R.drawable.r1)
+                .load(R.drawable.r1_rand)
                 .into(binding.layoutHowTo.imHowto3);
 
         Glide.with(activity)
-                .load(R.drawable.r2)
+                .load(R.drawable.r2_rand)
                 .into(binding.layoutHowTo.imHowto4);
         binding.layoutHowTo.tvHowToHeadOne.setVisibility(View.GONE);
         binding.layoutHowTo.LLHowToOne.setVisibility(View.GONE);

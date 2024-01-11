@@ -20,7 +20,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginEnd="@dimen/video_item_search_image_right_margin"
         android:scaleType="centerCrop"
-        android:src="@drawable/no_image"/>
+        android:src="@drawable/no_image_rand"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
         android:background="@color/duration_background_color"
         android:gravity="center"
         android:padding="8dp"
-        android:src="@drawable/ic_playlist_play_white_24dp"/>
+        android:src="@drawable/ic_playlist_play_white_24dp_rand"/>
 
     <TextView
         android:id="@+id/itemTitleView"

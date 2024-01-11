@@ -108,7 +108,7 @@ public class SuggestionListAdapter extends RecyclerView.Adapter<SuggestionListAd
         }
 
         private void updateFrom(SuggestionItem item) {
-            suggestionIcon.setImageResource(item.fromHistory ? R.drawable.ic_history_dark_24dp : R.drawable.ic_search_dark_24dp);
+            suggestionIcon.setImageResource(item.fromHistory ? R.drawable.ic_history_dark_24dp_rand : R.drawable.ic_search_dark_24dp_rand);
             itemSuggestionQuery.setText(item.query);
         }
 

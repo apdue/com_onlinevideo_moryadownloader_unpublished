@@ -26,7 +26,7 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:scaleType="centerCrop"
-            tools:src="@drawable/no_image" />
+            tools:src="@drawable/no_image_rand" />
 
         <ImageView
             android:id="@+id/detail_thumbnail_play_button"
@@ -35,7 +35,7 @@
             android:layout_gravity="center"
             android:background="@android:color/transparent"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_play_arrow_white_shadow_24dp"
+            android:src="@drawable/ic_play_arrow_white_shadow_24dp_rand"
             android:visibility="invisible"
             tools:visibility="visible" />
 
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:layout_margin="8dp"
-            android:background="@drawable/bg_rectangle_radius"
+            android:background="@drawable/bg_rectangle_radius_rand"
             android:paddingLeft="@dimen/video_item_search_duration_horizontal_padding"
             android:paddingTop="@dimen/video_item_search_duration_vertical_padding"
             android:paddingRight="@dimen/video_item_search_duration_horizontal_padding"

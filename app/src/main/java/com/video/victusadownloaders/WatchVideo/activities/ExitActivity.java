@@ -9,12 +9,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.video.victusadownloaders.VideoSaver.PrefManagerVideo;
 import com.video.victusadownloaders.VideoSaver.SplashActivityScr;
-import com.video.victusadownloaders.additionalscreens.DummyFiveScr;
-import com.video.victusadownloaders.additionalscreens.DummyFourScr;
-import com.video.victusadownloaders.additionalscreens.DummyOneScr;
-import com.video.victusadownloaders.additionalscreens.DummySixScr;
-import com.video.victusadownloaders.additionalscreens.DummyThreeScr;
-import com.video.victusadownloaders.additionalscreens.DummyTwoScr;
+import com.video.victusadownloaders.additionalscreens.DummyFiveScrRand;
+import com.video.victusadownloaders.additionalscreens.DummyFourScrRand;
+import com.video.victusadownloaders.additionalscreens.DummyOneScrRand;
+import com.video.victusadownloaders.additionalscreens.DummySixScrRand;
+import com.video.victusadownloaders.additionalscreens.DummyThreeScrRand;
+import com.video.victusadownloaders.additionalscreens.DummyTwoScrRand;
 import com.video.victusadownloaders.utilities.AdsWork;
 import com.video.victusadownloaders.utilities.NativeAdNew;
 
@@ -63,17 +63,17 @@ public class ExitActivity extends AppCompatActivity {
     private void startActivity(){
         Intent intent;
         if (new PrefManagerVideo(this).getString(SplashActivityScr.status_dummy_one_enabled).contains("true")) {
-            intent = new Intent(this, DummyOneScr.class);
+            intent = new Intent(this, DummyOneScrRand.class);
         } else if (new PrefManagerVideo(this).getString(SplashActivityScr.status_dummy_two_enabled).contains("true")) {
-            intent = new Intent(this, DummyTwoScr.class);
+            intent = new Intent(this, DummyTwoScrRand.class);
         } else if (new PrefManagerVideo(this).getString(SplashActivityScr.status_dummy_three_enabled).contains("true")) {
-            intent = new Intent(this, DummyThreeScr.class);
+            intent = new Intent(this, DummyThreeScrRand.class);
         } else if (new PrefManagerVideo(this).getString(SplashActivityScr.status_dummy_four_enabled).contains("true")) {
-            intent = new Intent(this, DummyFourScr.class);
+            intent = new Intent(this, DummyFourScrRand.class);
         } else if (new PrefManagerVideo(this).getString(SplashActivityScr.status_dummy_five_enabled).contains("true")) {
-            intent = new Intent(this, DummyFiveScr.class);
+            intent = new Intent(this, DummyFiveScrRand.class);
         } else if (new PrefManagerVideo(this).getString(SplashActivityScr.status_dummy_six_enabled).contains("true")) {
-            intent = new Intent(this, DummySixScr.class);
+            intent = new Intent(this, DummySixScrRand.class);
         } else {
             intent = new Intent(this, MainActivity.class);
         }

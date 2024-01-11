@@ -46,17 +46,17 @@ public final class NotificationConstants {
     @DrawableRes
     public static final int[] ACTION_ICONS = {
             0,
-            R.drawable.ic_control_previous_white_24dp,
-            R.drawable.ic_control_next_white_24dp,
-            R.drawable.ic_fast_rewind,
-            R.drawable.ic_fast_forward,
-            R.drawable.ic_control_previous_white_24dp,
-            R.drawable.ic_control_next_white_24dp,
-            R.drawable.ic_pause_white_24dp,
-            R.drawable.ic_hourglass_top_white_24dp,
-            R.drawable.ic_repeat_white_24dp,
-            R.drawable.ic_shuffle_white_24dp,
-            R.drawable.ic_close_white_24dp,
+            R.drawable.ic_control_previous_white_24dp_rand,
+            R.drawable.ic_control_next_white_24dp_rand,
+            R.drawable.ic_fast_rewind_rand,
+            R.drawable.ic_fast_forward_rand,
+            R.drawable.ic_control_previous_white_24dp_rand,
+            R.drawable.ic_control_next_white_24dp_rand,
+            R.drawable.ic_pause_white_24dp_rand,
+            R.drawable.ic_hourglass_top_white_24dp_rand,
+            R.drawable.ic_repeat_white_24dp_rand,
+            R.drawable.ic_shuffle_white_24dp_rand,
+            R.drawable.ic_close_white_24dp_rand,
     };
 
 

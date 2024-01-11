@@ -2,7 +2,7 @@ package com.video.victusadownloaders.StatusVideoDownloader.activity;
 
 import static android.content.ClipDescription.MIMETYPE_TEXT_PLAIN;
 import static android.content.ContentValues.TAG;
-import static com.video.victusadownloaders.StatusVideoDownloader.StatusMainActivityVideo.extractLinks;
+import static com.video.victusadownloaders.StatusVideoDownloader.StatusMainActivityVideoRand.extractLinks;
 import static com.video.victusadownloaders.StatusVideoDownloader.util.Utils.RootDirectoryLikeeShow;
 import static com.video.victusadownloaders.StatusVideoDownloader.util.Utils.createFileFolder;
 
@@ -150,19 +150,19 @@ public class LikeeActivity extends AppCompatActivity {
 
 
         Glide.with(activity)
-                .load(R.drawable.likee1)
+                .load(R.drawable.likee1_rand)
                 .into(binding.layoutHowTo.imHowto1);
 
         Glide.with(activity)
-                .load(R.drawable.likee2)
+                .load(R.drawable.likee2_rand)
                 .into(binding.layoutHowTo.imHowto2);
 
         Glide.with(activity)
-                .load(R.drawable.likee3)
+                .load(R.drawable.likee3_rand)
                 .into(binding.layoutHowTo.imHowto3);
 
         Glide.with(activity)
-                .load(R.drawable.likee4)
+                .load(R.drawable.likee4_rand)
                 .into(binding.layoutHowTo.imHowto4);
 
 

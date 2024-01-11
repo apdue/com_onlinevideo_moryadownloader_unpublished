@@ -98,19 +98,19 @@ public class SnackVideoActivity extends AppCompatActivity {
         binding.imInfo.setOnClickListener(view -> binding.layoutHowTo.LLHowToLayout.setVisibility(View.VISIBLE));
 
         Glide.with(activity)
-                .load(R.drawable.sn1)
+                .load(R.drawable.sn1_rand)
                 .into(binding.layoutHowTo.imHowto1);
 
         Glide.with(activity)
-                .load(R.drawable.sn2)
+                .load(R.drawable.sn2_rand)
                 .into(binding.layoutHowTo.imHowto2);
 
         Glide.with(activity)
-                .load(R.drawable.sn1)
+                .load(R.drawable.sn1_rand)
                 .into(binding.layoutHowTo.imHowto3);
 
         Glide.with(activity)
-                .load(R.drawable.sn2)
+                .load(R.drawable.sn2_rand)
                 .into(binding.layoutHowTo.imHowto4);
 
         binding.layoutHowTo.tvHowToHeadOne.setVisibility(View.GONE);

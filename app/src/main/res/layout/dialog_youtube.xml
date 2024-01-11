@@ -13,7 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="bottom|center"
         android:layout_marginBottom="50.0dip"
-        android:background="@drawable/bg_rec_round_corner_red"
+        android:background="@drawable/bg_rec_round_corner_red_rand"
         android:text="OK"
         android:textColor="@color/white"
         android:textSize="22.0sp" />
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20.0dip"
-        app:srcCompat="@drawable/ic_no_youtube" />
+        app:srcCompat="@drawable/ic_no_youtube_rand" />
 
     <TextView
         android:id="@+id/tvNoYoutubeHelpingText"

@@ -89,7 +89,7 @@ public final class NotificationUtil {
                 .setMediaSession(player.mediaSessionManager.getSessionToken())
                 .setShowActionsInCompactView(compactSlots))
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
-                .setSmallIcon(R.drawable.ic_headset_white_24dp)
+                .setSmallIcon(R.drawable.ic_headset_white_24dp_rand)
                 .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
                 .setColor(ContextCompat.getColor(player.context, R.color.gray))
                 .setCategory(NotificationCompat.CATEGORY_TRANSPORT)
@@ -196,54 +196,54 @@ public final class NotificationUtil {
 
             case NotificationConstants.SMART_REWIND_PREVIOUS:
                 if (player.playQueue != null && player.playQueue.size() > 1) {
-                    return getAction(player, R.drawable.ic_control_previous_white_24dp, R.string.exo_controls_previous_description, MainPlayer.ACTION_PLAY_PREVIOUS);
+                    return getAction(player, R.drawable.ic_control_previous_white_24dp_rand, R.string.exo_controls_previous_description, MainPlayer.ACTION_PLAY_PREVIOUS);
                 } else {
-                    return getAction(player, R.drawable.ic_fast_rewind, R.string.exo_controls_rewind_description, MainPlayer.ACTION_FAST_REWIND);
+                    return getAction(player, R.drawable.ic_fast_rewind_rand, R.string.exo_controls_rewind_description, MainPlayer.ACTION_FAST_REWIND);
                 }
 
             case NotificationConstants.SMART_FORWARD_NEXT:
                 if (player.playQueue != null && player.playQueue.size() > 1) {
-                    return getAction(player, R.drawable.ic_control_next_white_24dp, R.string.exo_controls_next_description, MainPlayer.ACTION_PLAY_NEXT);
+                    return getAction(player, R.drawable.ic_control_next_white_24dp_rand, R.string.exo_controls_next_description, MainPlayer.ACTION_PLAY_NEXT);
                 } else {
-                    return getAction(player, R.drawable.ic_fast_forward, R.string.exo_controls_fastforward_description, MainPlayer.ACTION_FAST_FORWARD);
+                    return getAction(player, R.drawable.ic_fast_forward_rand, R.string.exo_controls_fastforward_description, MainPlayer.ACTION_FAST_FORWARD);
                 }
 
             case NotificationConstants.PLAY_PAUSE_BUFFERING:
                 if (player.getCurrentState() == BasePlayer.STATE_PREFLIGHT || player.getCurrentState() == BasePlayer.STATE_BLOCKED || player.getCurrentState() == BasePlayer.STATE_BUFFERING) {
                     // null intent -> show hourglass icon that does nothing when clicked
-                    return new NotificationCompat.Action(R.drawable.ic_hourglass_top_white_24dp, player.context.getString(R.string.notification_action_buffering), null);
+                    return new NotificationCompat.Action(R.drawable.ic_hourglass_top_white_24dp_rand, player.context.getString(R.string.notification_action_buffering), null);
                 }
 
             case NotificationConstants.PLAY_PAUSE:
                 if (player.getCurrentState() == BasePlayer.STATE_COMPLETED) {
-                    return getAction(player, R.drawable.ic_replay_white_24dp, R.string.exo_controls_pause_description, MainPlayer.ACTION_PLAY_PAUSE);
+                    return getAction(player, R.drawable.ic_replay_white_24dp_rand, R.string.exo_controls_pause_description, MainPlayer.ACTION_PLAY_PAUSE);
                 } else if (player.isPlaying()
                         || player.getCurrentState() == BasePlayer.STATE_PREFLIGHT
                         || player.getCurrentState() == BasePlayer.STATE_BLOCKED
                         || player.getCurrentState() == BasePlayer.STATE_BUFFERING) {
-                    return getAction(player, R.drawable.ic_pause_white_24dp, R.string.exo_controls_pause_description, MainPlayer.ACTION_PLAY_PAUSE);
+                    return getAction(player, R.drawable.ic_pause_white_24dp_rand, R.string.exo_controls_pause_description, MainPlayer.ACTION_PLAY_PAUSE);
                 } else {
-                    return getAction(player, R.drawable.ic_play_arrow_white_24dp, R.string.exo_controls_play_description, MainPlayer.ACTION_PLAY_PAUSE);
+                    return getAction(player, R.drawable.ic_play_arrow_white_24dp_rand, R.string.exo_controls_play_description, MainPlayer.ACTION_PLAY_PAUSE);
                 }
 
             case NotificationConstants.REPEAT:
                 if (player.getRepeatMode() == REPEAT_MODE_ALL) {
-                    return getAction(player, R.drawable.controls_repeat_all, R.string.exo_controls_repeat_all_description, MainPlayer.ACTION_REPEAT);
+                    return getAction(player, R.drawable.controls_repeat_all_rand, R.string.exo_controls_repeat_all_description, MainPlayer.ACTION_REPEAT);
                 } else if (player.getRepeatMode() == REPEAT_MODE_ONE) {
-                    return getAction(player, R.drawable.controls_repeat_one, R.string.exo_controls_repeat_one_description, MainPlayer.ACTION_REPEAT);
+                    return getAction(player, R.drawable.controls_repeat_one_rand, R.string.exo_controls_repeat_one_description, MainPlayer.ACTION_REPEAT);
                 } else /* player.getRepeatMode() == REPEAT_MODE_OFF */ {
-                    return getAction(player, R.drawable.controls_repeat_off, R.string.exo_controls_repeat_off_description, MainPlayer.ACTION_REPEAT);
+                    return getAction(player, R.drawable.controls_repeat_off_rand, R.string.exo_controls_repeat_off_description, MainPlayer.ACTION_REPEAT);
                 }
 
             case NotificationConstants.SHUFFLE:
                 if (player.playQueue != null && player.playQueue.isShuffled()) {
-                    return getAction(player, R.drawable.ic_shuffle_white_24dp, R.string.exo_controls_shuffle_on_description, MainPlayer.ACTION_SHUFFLE);
+                    return getAction(player, R.drawable.ic_shuffle_white_24dp_rand, R.string.exo_controls_shuffle_on_description, MainPlayer.ACTION_SHUFFLE);
                 } else {
-                    return getAction(player, R.drawable.ic_shuffle_dark_24dp, R.string.exo_controls_shuffle_off_description, MainPlayer.ACTION_SHUFFLE);
+                    return getAction(player, R.drawable.ic_shuffle_dark_24dp_rand, R.string.exo_controls_shuffle_off_description, MainPlayer.ACTION_SHUFFLE);
                 }
 
             case NotificationConstants.CLOSE:
-                return getAction(player, R.drawable.ic_close_white_24dp, R.string.close, MainPlayer.ACTION_CLOSE);
+                return getAction(player, R.drawable.ic_close_white_24dp_rand, R.string.close, MainPlayer.ACTION_CLOSE);
 
             case NotificationConstants.NOTHING:
             default:

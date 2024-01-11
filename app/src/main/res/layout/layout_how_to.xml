@@ -17,7 +17,7 @@
         android:text="@string/how_to_download"
         android:textColor="@color/white"
         android:padding="15dp"
-        android:background="@drawable/social_item_bg"
+        android:background="@drawable/social_item_bg_rand"
         android:gravity="center"
         android:id="@+id/tvHowToHeadOne"
         android:textSize="16sp"
@@ -50,7 +50,7 @@
         android:layout_height="250dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:background="@drawable/btn_stroke"
+        android:background="@drawable/btn_stroke_rand"
         android:id="@+id/im_howto1" />
 
     <TextView
@@ -70,7 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_gravity="center"
-        android:background="@drawable/btn_stroke"
+        android:background="@drawable/btn_stroke_rand"
         android:layout_margin="10dp"
         android:id="@+id/im_howto2"
         />
@@ -112,7 +112,7 @@
         android:layout_height="250dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:background="@drawable/btn_stroke"
+        android:background="@drawable/btn_stroke_rand"
         android:id="@+id/im_howto3" />
 
     <TextView
@@ -133,7 +133,7 @@
         android:layout_height="250dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:background="@drawable/btn_stroke"
+        android:background="@drawable/btn_stroke_rand"
         android:id="@+id/im_howto4" />
     </LinearLayout>
 </LinearLayout>

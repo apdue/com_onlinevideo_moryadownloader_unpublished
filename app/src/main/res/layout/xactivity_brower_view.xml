@@ -9,7 +9,7 @@
         android:id="@+id/etSearchContainerBrowserActivity"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/big_view"
+        android:background="@drawable/big_view_rand"
         android:orientation="horizontal"
         android:weightSum="2.0">
 
@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                app:srcCompat="@drawable/ic_home" />
+                app:srcCompat="@drawable/ic_home_rand" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -36,7 +36,7 @@
             android:layout_marginRight="10.0dip"
             android:layout_marginBottom="5.0dip"
             android:layout_weight="1.75"
-            android:background="@drawable/bg_white_r"
+            android:background="@drawable/bg_white_r_rand"
             android:visibility="visible">
 
             <EditText
@@ -67,14 +67,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:visibility="gone"
-                    app:srcCompat="@drawable/ic_clear" />
+                    app:srcCompat="@drawable/ic_clear_rand" />
 
                 <ImageView
                     android:id="@+id/imgIcRefreshBrowser"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:visibility="gone"
-                    app:srcCompat="@drawable/ic_refresh" />
+                    app:srcCompat="@drawable/ic_refresh_rand" />
             </FrameLayout>
         </RelativeLayout>
 
@@ -147,7 +147,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    app:srcCompat="@drawable/download_icon_view" />
+                    app:srcCompat="@drawable/download_icon_view_rand" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 

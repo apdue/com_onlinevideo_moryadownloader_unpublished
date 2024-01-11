@@ -95,19 +95,19 @@ public class MojActivity extends AppCompatActivity {
         });
 
         Glide.with(activity)
-                .load(R.drawable.tt1)
+                .load(R.drawable.tt1_rand)
                 .into(binding.layoutHowTo.imHowto1);
 
         Glide.with(activity)
-                .load(R.drawable.tt2)
+                .load(R.drawable.tt2_rand)
                 .into(binding.layoutHowTo.imHowto2);
 
         Glide.with(activity)
-                .load(R.drawable.tt3)
+                .load(R.drawable.tt3_rand)
                 .into(binding.layoutHowTo.imHowto3);
 
         Glide.with(activity)
-                .load(R.drawable.tt4)
+                .load(R.drawable.tt4_rand)
                 .into(binding.layoutHowTo.imHowto4);
 
 

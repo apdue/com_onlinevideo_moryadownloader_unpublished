@@ -38,8 +38,8 @@
             android:layout_marginEnd="0.0dip"
             android:background="@color/colorNavbar"
             android:elevation="0dp"
-            app:itemIconTint="@drawable/bottom_bar_items_color"
-            app:itemTextColor="@drawable/bottom_bar_items_color"
+            app:itemIconTint="@drawable/bottom_bar_items_color_rand"
+            app:itemTextColor="@drawable/bottom_bar_items_color_rand"
             app:menu="@menu/bottom_navigation" />
 
     </RelativeLayout>

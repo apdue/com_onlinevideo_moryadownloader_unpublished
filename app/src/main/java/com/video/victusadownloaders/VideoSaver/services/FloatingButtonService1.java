@@ -158,11 +158,11 @@ public class FloatingButtonService1 extends Service {
         layoutParams.gravity = 51;
         this.removeView.setVisibility(View.GONE);
         this.removeImg = (ImageView) this.removeView.findViewById(R.id.remove_img);
-        this.removeImg.setImageResource(R.drawable.cross);
+        this.removeImg.setImageResource(R.drawable.cross_rand);
         this.mWindowManager.addView(this.removeView, layoutParams);
         this.chatheadView = (RelativeLayout) layoutInflater.inflate(R.layout.floating_bubble_view, null);
         this.chatheadImg = (ImageView) this.chatheadView.findViewById(R.id.bubble);
-        this.chatheadImg.setImageResource(R.drawable.icon);
+        this.chatheadImg.setImageResource(R.drawable.icon_rand_rand);
         this.isclip = false;
         if (VERSION.SDK_INT >= 11) {
             this.mWindowManager.getDefaultDisplay().getSize(this.szWindow);

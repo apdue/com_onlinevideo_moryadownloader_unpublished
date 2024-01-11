@@ -242,11 +242,11 @@ public class DownloadDialog extends BottomSheetDialogFragment implements AudioSt
         GlideUtils.loadThumbnail(AppNew.applicationContext, thumbnail, currentInfo.getThumbnailUrl());
         if (currentInfo.getDuration() > 0) {
             duration.setText(Localization.getDurationString(currentInfo.getDuration()));
-            duration.setBackgroundResource(R.drawable.duration_background);
+            duration.setBackgroundResource(R.drawable.duration_background_rand);
             duration.setVisibility(View.VISIBLE);
         } else if (currentInfo.getStreamType() == StreamType.LIVE_STREAM) {
             duration.setText(R.string.duration_live);
-            duration.setBackgroundResource(R.drawable.duration_background_live);
+            duration.setBackgroundResource(R.drawable.duration_background_live_rand);
             duration.setVisibility(View.VISIBLE);
         } else {
             duration.setVisibility(View.GONE);

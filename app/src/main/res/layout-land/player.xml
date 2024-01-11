@@ -55,7 +55,7 @@
             android:focusable="true"
             android:padding="16dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_close_white_24dp"
+            android:src="@drawable/ic_close_white_24dp_rand"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -123,7 +123,7 @@
                     android:focusable="true"
                     android:padding="6dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/ic_minimize_player_white_24dp" />
+                    android:src="@drawable/ic_minimize_player_white_24dp_rand" />
 
                 <TextView
                     android:id="@+id/titleTextView"
@@ -197,7 +197,7 @@
                         android:focusable="true"
                         android:padding="6dp"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/ic_share_white_24dp" />
+                        android:src="@drawable/ic_share_white_24dp_rand" />
 
                     <ImageButton
                         android:id="@+id/fullScreenButton"
@@ -207,7 +207,7 @@
                         android:background="?attr/selectableItemBackgroundBorderless"
                         android:padding="6dp"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/ic_fullscreen_white_24dp"
+                        android:src="@drawable/ic_fullscreen_white_24dp_rand"
                         android:visibility="gone"
                         app:layout_constraintBottom_toTopOf="@+id/playbackSeekBar"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -262,7 +262,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:padding="6dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/ic_fullscreen_white_24dp"
+                    android:src="@drawable/ic_fullscreen_white_24dp_rand"
                     android:visibility="gone"
                     app:layout_constraintBottom_toTopOf="@+id/playbackSeekBar"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -304,7 +304,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_control_previous_white_24dp" />
+                android:src="@drawable/ic_control_previous_white_24dp_rand" />
 
             <ImageButton
                 android:id="@+id/playPauseButton"
@@ -315,7 +315,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_pause_white_24dp" />
+                android:src="@drawable/ic_pause_white_24dp_rand" />
 
             <ImageButton
                 android:id="@+id/playNextButton"
@@ -327,7 +327,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_control_next_white_24dp" />
+                android:src="@drawable/ic_control_next_white_24dp_rand" />
 
         </LinearLayout>
 
@@ -344,7 +344,7 @@
             android:id="@+id/controlAnimationView"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:src="@drawable/ic_fast_rewind"
+            android:src="@drawable/ic_fast_rewind_rand"
             android:visibility="gone"
             tools:visibility="visible" />
 
@@ -386,7 +386,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:background="@drawable/bg_rectangle_radius"
+            android:background="@drawable/bg_rectangle_radius_rand"
             android:paddingStart="24dp"
             android:paddingTop="8dp"
             android:paddingEnd="24dp"

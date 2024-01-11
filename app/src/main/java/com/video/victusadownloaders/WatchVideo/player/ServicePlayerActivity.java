@@ -579,15 +579,15 @@ public abstract class ServicePlayerActivity extends BaseActivity implements Play
 	private void onStateChanged(final int state) {
 		switch (state) {
 			case BasePlayer.STATE_PAUSED:
-				playPauseButton.setImageResource(R.drawable.ic_play_arrow_white_24dp);
+				playPauseButton.setImageResource(R.drawable.ic_play_arrow_white_24dp_rand);
 				break;
 			
 			case BasePlayer.STATE_PLAYING:
-				playPauseButton.setImageResource(R.drawable.ic_pause_white_24dp);
+				playPauseButton.setImageResource(R.drawable.ic_pause_white_24dp_rand);
 				break;
 			
 			case BasePlayer.STATE_COMPLETED:
-				playPauseButton.setImageResource(R.drawable.ic_replay_white_24dp);
+				playPauseButton.setImageResource(R.drawable.ic_replay_white_24dp_rand);
 				break;
 			
 			default:
@@ -616,15 +616,15 @@ public abstract class ServicePlayerActivity extends BaseActivity implements Play
 		switch (repeatMode) {
 			
 			case Player.REPEAT_MODE_OFF:
-				repeatButton.setImageResource(R.drawable.controls_repeat_off);
+				repeatButton.setImageResource(R.drawable.controls_repeat_off_rand);
 				break;
 			
 			case Player.REPEAT_MODE_ONE:
-				repeatButton.setImageResource(R.drawable.controls_repeat_one);
+				repeatButton.setImageResource(R.drawable.controls_repeat_one_rand);
 				break;
 			
 			case Player.REPEAT_MODE_ALL:
-				repeatButton.setImageResource(R.drawable.controls_repeat_all);
+				repeatButton.setImageResource(R.drawable.controls_repeat_all_rand);
 				break;
 		}
 		

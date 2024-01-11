@@ -49,7 +49,7 @@ public class DownloadService extends Service implements DownloadTask.Downloading
         } else {
             this.notificationBuilder = new Builder(getApplicationContext());
         }
-        this.notificationBuilder.setOngoing(true).setSmallIcon(R.drawable.download_icon_view).setContentTitle("Downloading...").setContentText("Downloading Start").setPriority(Notification.PRIORITY_HIGH).setProgress(100, 0, false);
+        this.notificationBuilder.setOngoing(true).setSmallIcon(R.drawable.download_icon_view_rand).setContentTitle("Downloading...").setContentText("Downloading Start").setPriority(Notification.PRIORITY_HIGH).setProgress(100, 0, false);
         return this.notificationBuilder.build();
     }
 
@@ -60,7 +60,7 @@ public class DownloadService extends Service implements DownloadTask.Downloading
         } else {
             builder = new Builder(getApplicationContext());
         }
-        Builder smallIcon = builder.setSmallIcon(R.drawable.download_icon_view);
+        Builder smallIcon = builder.setSmallIcon(R.drawable.download_icon_view_rand);
         StringBuilder sb = new StringBuilder();
         sb.append(this.title);
         sb.append(".mp4");

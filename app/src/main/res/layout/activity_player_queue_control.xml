@@ -25,7 +25,7 @@
             android:background="?attr/toolbarColor"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:navigationIcon="@drawable/ic_back_white_24dp"
+            app:navigationIcon="@drawable/ic_back_white_24dp_rand"
             app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar"
             app:titleTextAppearance="@style/Toolbar.Title"
             app:titleTextColor="@color/white"/>
@@ -103,7 +103,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:background="@drawable/duration_background"
+            android:background="@drawable/duration_background_rand"
             android:paddingLeft="30dp"
             android:paddingTop="5dp"
             android:paddingRight="30dp"
@@ -192,7 +192,7 @@
             android:clickable="true"
             android:focusable="true"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/ic_repeat_white"
+            app:srcCompat="@drawable/ic_repeat_white_rand"
             app:tint="?attr/colorAccent" />
 
         <ImageButton
@@ -206,7 +206,7 @@
             android:clickable="true"
             android:focusable="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_control_previous_white_24dp"
+            android:src="@drawable/ic_control_previous_white_24dp_rand"
             app:tint="?attr/colorAccent" />
 
         <ImageButton
@@ -221,7 +221,7 @@
             android:clickable="true"
             android:focusable="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_pause_white"
+            android:src="@drawable/ic_pause_white_rand"
             app:tint="?attr/colorAccent" />
 
         <ProgressBar
@@ -254,7 +254,7 @@
             android:clickable="true"
             android:focusable="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_control_next_white_24dp"
+            android:src="@drawable/ic_control_next_white_24dp_rand"
             app:tint="?attr/colorAccent" />
 
         <ImageButton
@@ -269,7 +269,7 @@
             android:clickable="true"
             android:focusable="true"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_shuffle_white_24dp"
+            android:src="@drawable/ic_shuffle_white_24dp_rand"
             app:tint="?attr/colorAccent" />
 
     </RelativeLayout>

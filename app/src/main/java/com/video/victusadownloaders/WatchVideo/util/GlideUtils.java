@@ -13,27 +13,27 @@ public class GlideUtils {
 	public static void loadAvatar(Context context, ImageView imageView, String imageUrl) {
 		Glide.with(context).load(imageUrl)
 				.diskCacheStrategy(DiskCacheStrategy.ALL)
-				.placeholder(R.drawable.user_default)
-				.error(R.drawable.user_default)
-				.fallback(R.drawable.user_default)
+				.placeholder(R.drawable.user_default_rand)
+				.error(R.drawable.user_default_rand)
+				.fallback(R.drawable.user_default_rand)
 				.into(imageView);
 	}
 	
 	public static void loadThumbnail(Context context, ImageView imageView, String imageUrl) {
 		Glide.with(context).load(imageUrl)
 				.diskCacheStrategy(DiskCacheStrategy.ALL)
-				.placeholder(R.drawable.no_image)
-				.error(R.drawable.no_image)
-				.fallback(R.drawable.no_image)
+				.placeholder(R.drawable.no_image_rand)
+				.error(R.drawable.no_image_rand)
+				.fallback(R.drawable.no_image_rand)
 				.into(imageView);
 	}
 	
 	public static void loadChannelBanner(Context context, ImageView imageView, String imageUrl) {
 		Glide.with(context).load(imageUrl)
 				.diskCacheStrategy(DiskCacheStrategy.ALL)
-				.placeholder(R.drawable.channel_banner)
-				.error(R.drawable.channel_banner)
-				.fallback(R.drawable.channel_banner)
+				.placeholder(R.drawable.channel_banner_rand)
+				.error(R.drawable.channel_banner_rand)
+				.fallback(R.drawable.channel_banner_rand)
 				.into(imageView);
 	}
 }

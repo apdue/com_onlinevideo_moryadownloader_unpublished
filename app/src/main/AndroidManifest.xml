@@ -2,23 +2,24 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
     <!-- system -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- network -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- storage -->
-
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- location -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
-    <!-- new for targetsdk 33-->
-    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
     <!--  old storage permission-->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
+
+
+    <!-- new for targetsdk 33-->
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
 
@@ -32,22 +33,24 @@
 
 
     <queries>
-        <package android:name="com.whatsapp" />
-        <package android:name="com.whatsapp.w4b" />
-        <package android:name="com.eterno.shortvideos" />
-        <package android:name="io.chingari.app" />
-        <package android:name="com.facebook.katana" />
-        <package android:name="com.mitron.tv" />
-        <package android:name="com.roposo.android" />
+        <package android:name="com.zhiliaoapp.musically" />
         <package android:name="in.mohalla.sharechat" />
         <package android:name="com.kwai.bulldog" />
-        <package android:name="com.vimeo.android.videoapp" />
-        <package android:name="com.instagram.android" />
-        <package android:name="video.like" />
         <package android:name="com.twitter.android" />
+        <package android:name="com.instagram.android" />
+        <package android:name="com.vimeo.android.videoapp" />
+        <package android:name="video.like" />
+        <package android:name="com.facebook.katana" />
         <package android:name="com.zhiliaoapp.musically.go" />
-        <package android:name="com.zhiliaoapp.musically" />
+        <package android:name="com.roposo.android" />
+        <package android:name="com.eterno.shortvideos" />
         <package android:name="com.next.innovation.takatak" />
+        <package android:name="io.chingari.app" />
+        <package android:name="com.whatsapp" />
+        <package android:name="com.mitron.tv" />
+        <package android:name="com.whatsapp.w4b" />
+
+            />
     </queries>
 
     <uses-feature
@@ -59,24 +62,25 @@
 
     <application
         android:name="com.video.victusadownloaders.WatchVideo.AppNew"
-        android:allowBackup="false"
-        android:banner="@drawable/no_image"
-        android:hardwareAccelerated="true"
-        android:icon="@drawable/icon"
-        android:label="@string/app_name"
+        android:banner="@drawable/no_image_rand"
         android:largeHeap="true"
-        android:logo="@drawable/icon"
+        android:logo="@drawable/icon_rand_rand"
+        android:label="@string/app_name"
+        tools:replace="android:networkSecurityConfig"
+        android:theme="@style/AppTheme"
         android:networkSecurityConfig="@xml/network_security_config"
         android:requestLegacyExternalStorage="true"
+        android:allowBackup="false"
         android:resizeableActivity="true"
-        android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
+        android:icon="@drawable/icon_rand_rand"
+        tools:targetApi="q"
         tools:ignore="GoogleAppIndexingWarning"
-        tools:replace="android:networkSecurityConfig"
-        tools:targetApi="q">
+        android:hardwareAccelerated="true"
+        >
 
         <activity
-            android:name="com.video.victusadownloaders.additionalscreens.HomeActivityScr"
+            android:name="com.video.victusadownloaders.additionalscreens.HomeActivityScrRand"
             android:exported="false" />
 
         <activity
@@ -90,44 +94,44 @@
         </activity>
 
         <activity
-            android:name="com.video.victusadownloaders.StatusVideoDownloader.StatusMainActivityVideo"
+            android:name="com.video.victusadownloaders.StatusVideoDownloader.StatusMainActivityVideoRand"
             android:exported="false" />
-        <activity android:name="com.video.victusadownloaders.additionalscreens.DummyOneScr" />
-        <activity android:name="com.video.victusadownloaders.additionalscreens.DummyTwoScr" />
-        <activity android:name="com.video.victusadownloaders.additionalscreens.DummyThreeScr" />
-        <activity android:name="com.video.victusadownloaders.additionalscreens.DummyFourScr" />
-        <activity android:name="com.video.victusadownloaders.additionalscreens.DummyFiveScr" />
-        <activity android:name="com.video.victusadownloaders.additionalscreens.DummySixScr" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.AllGamesActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.LoginActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.FacebookActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.TikTokActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.WhatsappActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.InstagramActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.FullViewActivity" />
         <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.LikeeActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.JoshActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.MitronActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.FacebookActivity" />
         <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.ChingariActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.GalleryActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.WebviewAcitivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.TwitterActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.RoposoActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.ShareChatActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.SnackVideoActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.AllGamesActivity" />
         <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.MXTakaTakActivity" />
+        <activity android:name="com.video.victusadownloaders.additionalscreens.DummyFourScrRand" />
+        <activity android:name="com.video.victusadownloaders.additionalscreens.DummyThreeScrRand" />
+        <activity android:name="com.video.victusadownloaders.additionalscreens.DummySixScrRand" />
         <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.MojActivity" />
-        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.FBLoginActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.LoginActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.JoshActivity" />
+        <activity android:name="com.video.victusadownloaders.additionalscreens.DummyFiveScrRand" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.TikTokActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.ShareChatActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.GalleryActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.RoposoActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.TwitterActivity" />
+        <activity android:name="com.video.victusadownloaders.additionalscreens.DummyTwoScrRand" />
         <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.VideoPlayerActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.FBLoginActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.MitronActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.InstagramActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.WhatsappActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.FullViewActivity" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.SnackVideoActivity" />
+        <activity android:name="com.video.victusadownloaders.additionalscreens.DummyOneScrRand" />
+        <activity android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.WebviewAcitivity" />
         <activity
             android:name="com.video.victusadownloaders.StatusVideoDownloader.activity.GamesPlayActivity"
             android:screenOrientation="portrait" />
-        <activity android:name="com.video.victusadownloaders.VideoSaver.VideosViewDownActivityVideo" />
-        <activity android:name="com.video.victusadownloaders.VideoSaver.SampleActivityVideo" />
         <activity android:name="com.video.victusadownloaders.VideoSaver.FullScreenVideoActivityVideo" />
+        <activity android:name="com.video.victusadownloaders.VideoSaver.SampleActivityVideo" />
+        <activity android:name="com.video.victusadownloaders.VideoSaver.VideosViewDownActivityVideo" />
+        <activity android:name="com.video.victusadownloaders.VideoSaver.downloaderactivities.DailogActivity" />
         <activity android:name="com.video.victusadownloaders.VideoSaver.BrowserVideoActivityVideo" />
         <activity android:name="com.video.victusadownloaders.VideoSaver.downloaderactivities.Download_Auto" />
-        <activity android:name="com.video.victusadownloaders.VideoSaver.downloaderactivities.DailogActivity" />
 
         <receiver
             android:name="com.video.victusadownloaders.VideoSaver.DownloadReceiverVideo"
@@ -172,6 +176,18 @@
         <activity
             android:name="com.video.victusadownloaders.WatchVideo.activities.WelcomeOne"
             android:exported="false" />
+
+        <activity
+            android:name="com.video.victusadownloaders.WatchVideo.download.ui.DownloadActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.video.victusadownloaders.WatchVideo.activities.ReCaptchaActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+
         <activity
             android:name="com.video.victusadownloaders.WatchVideo.activities.MainActivity"
             android:exported="false"
@@ -183,6 +199,17 @@
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name="com.video.victusadownloaders.WatchVideo.player.PopupPlayerActivity"
+            android:label="@string/title_activity_popup_player"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.video.victusadownloaders.WatchVideo.settings.SettingsActivity"
+            android:label="@string/settings"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
 
         <service
             android:name="com.video.victusadownloaders.WatchVideo.player.MainPlayer"
@@ -201,15 +228,7 @@
             </intent-filter>
         </receiver>
 
-        <activity
-            android:name="com.video.victusadownloaders.WatchVideo.player.PopupPlayerActivity"
-            android:label="@string/title_activity_popup_player"
-            android:launchMode="singleTask" />
-        <activity
-            android:name="com.video.victusadownloaders.WatchVideo.settings.SettingsActivity"
-            android:label="@string/settings"
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity" /> <!-- FileProvider -->
+        <!-- FileProvider -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
@@ -233,16 +252,7 @@
         </service> <!-- Download -->
         <service android:name="com.video.victusadownloaders.WatchVideo.download.service.DownloadManagerService" />
 
-        <activity
-            android:name="com.video.victusadownloaders.WatchVideo.download.ui.DownloadActivity"
-            android:hardwareAccelerated="true"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity" />
-        <activity
-            android:name="com.video.victusadownloaders.WatchVideo.activities.ReCaptchaActivity"
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity" />
+
     </application>
 
 </manifest>

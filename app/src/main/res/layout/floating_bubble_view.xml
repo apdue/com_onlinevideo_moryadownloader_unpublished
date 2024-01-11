@@ -9,5 +9,5 @@
         android:layout_width="60.0dip"
         android:layout_height="60.0dip"
         android:contentDescription="@string/floating_bubble_description"
-        app:srcCompat="@drawable/icon" />
+        app:srcCompat="@drawable/icon_rand_rand" />
 </RelativeLayout>

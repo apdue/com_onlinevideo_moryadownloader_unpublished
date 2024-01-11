@@ -27,7 +27,7 @@
                         android:id="@+id/ivAd"
                         android:layout_width="match_parent"
                         android:layout_height="240dp"
-                        android:src="@drawable/img8" />
+                        android:src="@drawable/img8_rand" />
 
                     <RelativeLayout
                         android:id="@+id/nativeAd"
@@ -74,7 +74,7 @@
                                     android:layout_height="170dp"
                                     android:layout_marginEnd="8dp"
                                     android:layout_weight="1"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="65dp"
@@ -84,7 +84,7 @@
                                         android:layout_marginEnd="10dp"
                                         android:layout_marginBottom="10dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/josh_logo"
+                                        android:src="@drawable/josh_logo_rand"
                                         android:tint="@color/white" />
 
 
@@ -107,8 +107,8 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
@@ -118,7 +118,7 @@
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -128,7 +128,7 @@
                                         android:layout_marginEnd="-60dp"
                                         android:layout_alignParentEnd="true"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
 
@@ -140,7 +140,7 @@
                                     android:layout_height="170dp"
                                     android:layout_weight="1"
                                     android:layout_marginStart="8dp"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="50dp"
@@ -150,7 +150,7 @@
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="15dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/chingari_icn"
+                                        android:src="@drawable/chingari_icn_rand"
                                         android:tint="@color/white" />
 
 
@@ -173,14 +173,14 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/white_circle"
+                                        android:src="@drawable/white_circle_rand"
                                         android:layout_alignParentEnd="true"
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
@@ -195,7 +195,7 @@
                                         android:layout_marginTop="10dp"
                                         android:layout_marginEnd="-60dp"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
                                 </RelativeLayout>
@@ -217,7 +217,7 @@
                                     android:layout_height="170dp"
                                     android:layout_marginEnd="8dp"
                                     android:layout_weight="1"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="40dp"
@@ -227,7 +227,7 @@
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="15dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/mitron"
+                                        android:src="@drawable/mitron_rand"
                                         android:tint="@color/white" />
 
 
@@ -249,14 +249,14 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/white_circle"
+                                        android:src="@drawable/white_circle_rand"
                                         android:layout_alignParentEnd="true"
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
@@ -271,7 +271,7 @@
                                         android:layout_marginTop="10dp"
                                         android:layout_marginEnd="-60dp"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
                                 </RelativeLayout>
@@ -282,7 +282,7 @@
                                     android:layout_height="170dp"
                                     android:layout_weight="1"
                                     android:layout_marginStart="8dp"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="65dp"
@@ -292,7 +292,7 @@
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="15dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/sharec_icn"
+                                        android:src="@drawable/sharec_icn_rand"
                                         android:tint="@color/white" />
 
 
@@ -314,14 +314,14 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/white_circle"
+                                        android:src="@drawable/white_circle_rand"
                                         android:layout_alignParentEnd="true"
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
@@ -336,7 +336,7 @@
                                         android:layout_marginTop="10dp"
                                         android:layout_marginEnd="-60dp"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
 
@@ -359,7 +359,7 @@
                                     android:layout_height="170dp"
                                     android:layout_marginEnd="8dp"
                                     android:layout_weight="1"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="55dp"
@@ -369,7 +369,7 @@
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="15dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/ic_roposo"
+                                        android:src="@drawable/ic_roposo_rand"
                                         android:tint="@color/white" />
 
 
@@ -392,8 +392,8 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
@@ -403,7 +403,7 @@
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -413,7 +413,7 @@
                                         android:layout_marginEnd="-60dp"
                                         android:layout_alignParentEnd="true"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
 
@@ -425,7 +425,7 @@
                                     android:layout_height="170dp"
                                     android:layout_weight="1"
                                     android:layout_marginStart="8dp"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="55dp"
@@ -435,7 +435,7 @@
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="15dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/moj"
+                                        android:src="@drawable/moj_rand"
                                         android:tint="@color/white" />
 
 
@@ -457,14 +457,14 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/white_circle"
+                                        android:src="@drawable/white_circle_rand"
                                         android:layout_alignParentEnd="true"
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
@@ -479,7 +479,7 @@
                                         android:layout_marginEnd="-60dp"
                                         android:layout_alignParentEnd="true"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
 
@@ -503,7 +503,7 @@
                                     android:layout_height="170dp"
                                     android:layout_marginEnd="8dp"
                                     android:layout_weight="1"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="45dp"
@@ -513,7 +513,7 @@
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="15dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/likee_icn"
+                                        android:src="@drawable/likee_icn_rand"
                                         android:tint="@color/white" />
 
 
@@ -536,14 +536,14 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/white_circle"
+                                        android:src="@drawable/white_circle_rand"
                                         android:layout_alignParentEnd="true"
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
@@ -558,7 +558,7 @@
                                         android:layout_marginEnd="-60dp"
                                         android:layout_alignParentEnd="true"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
                                 </RelativeLayout>
@@ -569,7 +569,7 @@
                                     android:layout_height="170dp"
                                     android:layout_weight="1"
                                     android:layout_marginStart="8dp"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="45dp"
@@ -579,7 +579,7 @@
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="15dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/instagram_icn"
+                                        android:src="@drawable/instagram_icn_rand"
                                         android:tint="@color/white" />
 
 
@@ -602,14 +602,14 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/white_circle"
+                                        android:src="@drawable/white_circle_rand"
                                         android:layout_alignParentEnd="true"
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
@@ -624,7 +624,7 @@
                                         android:layout_marginEnd="-60dp"
                                         android:layout_alignParentEnd="true"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
                                 </RelativeLayout>
@@ -646,7 +646,7 @@
                                     android:layout_height="170dp"
                                     android:layout_marginEnd="8dp"
                                     android:layout_weight="1"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="45dp"
@@ -656,7 +656,7 @@
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="15dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/what_icn"
+                                        android:src="@drawable/what_icn_rand"
                                         android:tint="@color/white" />
 
 
@@ -679,14 +679,14 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/white_circle"
+                                        android:src="@drawable/white_circle_rand"
                                         android:layout_alignParentEnd="true"
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
@@ -701,7 +701,7 @@
                                         android:layout_marginEnd="-60dp"
                                         android:layout_alignParentEnd="true"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
 
@@ -713,7 +713,7 @@
                                     android:layout_height="170dp"
                                     android:layout_weight="1"
                                     android:layout_marginStart="8dp"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="45dp"
@@ -723,7 +723,7 @@
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="15dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/tiktok_icn"
+                                        android:src="@drawable/tiktok_icn_rand"
                                         android:tint="@color/white" />
 
 
@@ -746,8 +746,8 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
@@ -757,7 +757,7 @@
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -767,7 +767,7 @@
                                         android:layout_marginTop="10dp"
                                         android:layout_marginEnd="-60dp"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
 
@@ -791,7 +791,7 @@
                                     android:layout_height="170dp"
                                     android:layout_marginEnd="8dp"
                                     android:layout_weight="1"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="45dp"
@@ -801,7 +801,7 @@
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="15dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/fb"
+                                        android:src="@drawable/fb_rand"
                                         android:tint="@color/white" />
 
 
@@ -824,14 +824,14 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/white_circle"
+                                        android:src="@drawable/white_circle_rand"
                                         android:layout_alignParentEnd="true"
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
@@ -846,7 +846,7 @@
                                         android:layout_marginEnd="-60dp"
                                         android:layout_alignParentEnd="true"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
 
@@ -858,7 +858,7 @@
                                     android:layout_height="170dp"
                                     android:layout_weight="1"
                                     android:layout_marginStart="8dp"
-                                    android:background="@drawable/gr">
+                                    android:background="@drawable/gr_rand">
 
                                     <ImageView
                                         android:layout_width="55dp"
@@ -868,7 +868,7 @@
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="15dp"
                                         android:backgroundTint="#26FFFFFF"
-                                        android:src="@drawable/mx_icn"
+                                        android:src="@drawable/mx_icn_rand"
                                         android:tint="@color/white" />
 
 
@@ -891,14 +891,14 @@
                                         android:layout_marginStart="15dp"
                                         android:layout_marginBottom="20dp"
                                         android:layout_alignParentBottom="true"
-                                        android:background="@drawable/white_circle"
-                                        android:src="@drawable/right"
+                                        android:background="@drawable/white_circle_rand"
+                                        android:src="@drawable/right_rand"
                                         android:tint="#fe641e" />
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/white_circle"
+                                        android:src="@drawable/white_circle_rand"
                                         android:layout_alignParentEnd="true"
                                         android:layout_marginTop="-40dp"
                                         android:layout_marginEnd="-30dp"
@@ -913,7 +913,7 @@
                                         android:layout_marginEnd="-60dp"
                                         android:layout_alignParentEnd="true"
                                         android:alpha="0.2"
-                                        android:src="@drawable/white_circle" />
+                                        android:src="@drawable/white_circle_rand" />
 
 
 
@@ -946,9 +946,9 @@
                                         <ImageView
                                             android:layout_width="55dp"
                                             android:layout_height="55dp"
-                                            android:background="@drawable/circle_white"
+                                            android:background="@drawable/circle_white_rand"
                                             android:padding="12dp"
-                                            android:src="@drawable/snackvideo" />
+                                            android:src="@drawable/snackvideo_rand" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -978,9 +978,9 @@
                                         <ImageView
                                             android:layout_width="55dp"
                                             android:layout_height="55dp"
-                                            android:background="@drawable/circle_white"
+                                            android:background="@drawable/circle_white_rand"
                                             android:padding="12dp"
-                                            android:src="@drawable/ic_gamepad" />
+                                            android:src="@drawable/ic_gamepad_rand" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -1010,9 +1010,9 @@
                                         <ImageView
                                             android:layout_width="55dp"
                                             android:layout_height="55dp"
-                                            android:background="@drawable/circle_white"
+                                            android:background="@drawable/circle_white_rand"
                                             android:padding="12dp"
-                                            android:src="@drawable/ic_twitter" />
+                                            android:src="@drawable/ic_twitter_rand" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -1038,7 +1038,7 @@
                         android:layout_marginStart="5dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="5dp"
-                        android:background="@drawable/rectangle_white"
+                        android:background="@drawable/rectangle_white_rand"
                         android:elevation="3dp"
                         android:orientation="horizontal"
                         android:visibility="gone"
@@ -1060,9 +1060,9 @@
                                 <ImageView
                                     android:layout_width="40dp"
                                     android:layout_height="40dp"
-                                    android:background="@drawable/circle_white"
+                                    android:background="@drawable/circle_white_rand"
                                     android:padding="12dp"
-                                    android:src="@drawable/ic_gallery" />
+                                    android:src="@drawable/ic_gallery_rand" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -1090,9 +1090,9 @@
                                 <ImageView
                                     android:layout_width="40dp"
                                     android:layout_height="40dp"
-                                    android:background="@drawable/circle_white"
+                                    android:background="@drawable/circle_white_rand"
                                     android:padding="12dp"
-                                    android:src="@drawable/ic_about" />
+                                    android:src="@drawable/ic_about_rand" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -1120,9 +1120,9 @@
                                 <ImageView
                                     android:layout_width="40dp"
                                     android:layout_height="40dp"
-                                    android:background="@drawable/circle_white"
+                                    android:background="@drawable/circle_white_rand"
                                     android:padding="12dp"
-                                    android:src="@drawable/ic_share" />
+                                    android:src="@drawable/ic_share_rand" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -1151,9 +1151,9 @@
                                 <ImageView
                                     android:layout_width="40dp"
                                     android:layout_height="40dp"
-                                    android:background="@drawable/circle_white"
+                                    android:background="@drawable/circle_white_rand"
                                     android:padding="12dp"
-                                    android:src="@drawable/ic_rate" />
+                                    android:src="@drawable/ic_rate_rand" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -1175,7 +1175,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="5dp"
-                        android:background="@drawable/rectangle_white"
+                        android:background="@drawable/rectangle_white_rand"
 
                         android:elevation="3dp"
                         android:visibility="gone">
@@ -1187,9 +1187,9 @@
                             android:layout_alignParentLeft="true"
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
-                            android:background="@drawable/circle_white"
+                            android:background="@drawable/circle_white_rand"
                             android:padding="12dp"
-                            android:src="@drawable/ic_more" />
+                            android:src="@drawable/ic_more_rand" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -1224,7 +1224,7 @@
                             android:layout_alignParentRight="true"
                             android:layout_centerVertical="true"
                             android:layout_marginRight="10dp"
-                            android:src="@drawable/ic_arrow" />
+                            android:src="@drawable/ic_arrow_rand" />
                     </RelativeLayout>
 
 

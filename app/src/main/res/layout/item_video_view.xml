@@ -32,7 +32,7 @@
                 android:layout_height="36.0dip"
                 android:layout_centerInParent="true"
                 android:elevation="5.0dip"
-                app:srcCompat="@drawable/xplay_icon" />
+                app:srcCompat="@drawable/xplay_icon_rand" />
 
             <com.dailymotion.android.player.sdk.PlayerWebView
                 android:id="@+id/playerViewItemVideo"
@@ -59,7 +59,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_eye" />
+                    app:srcCompat="@drawable/ic_eye_rand" />
 
                 <TextView
                     android:id="@+id/tvTotalViewsItemVideo"
@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10.0dip"
                     android:clickable="true"
-                    app:srcCompat="@drawable/xic_thumbs_up" />
+                    app:srcCompat="@drawable/xic_thumbs_up_rand" />
 
                 <TextView
                     android:id="@+id/tvTotalLikesItemVideo"
@@ -90,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10.0dip"
                     android:clickable="true"
-                    app:srcCompat="@drawable/ic_share_black_24dp"
+                    app:srcCompat="@drawable/ic_share_black_24dp_rand"
                     app:tint="@color/iconsGrayColor" />
 
 

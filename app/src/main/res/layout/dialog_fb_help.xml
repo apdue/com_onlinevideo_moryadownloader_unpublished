@@ -12,7 +12,7 @@
         android:layout_marginTop="20.0dip"
         android:layout_marginRight="30.0dip"
         android:layout_marginBottom="20.0dip"
-        android:background="@drawable/bg_rec_round_corner_primary"
+        android:background="@drawable/bg_rec_round_corner_primary_rand"
         android:text="Got it"
         android:textAllCaps="false"
         android:textColor="@color/white"

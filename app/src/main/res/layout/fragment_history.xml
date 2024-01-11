@@ -89,7 +89,7 @@
         android:textAllCaps="true"
         android:textColor="@color/white"
         app:backgroundTint="@color/youtube_primary_color"
-        app:icon="@drawable/ic_play_arrow_white_24dp"
+        app:icon="@drawable/ic_play_arrow_white_24dp_rand"
         app:iconPadding="6dp"
         app:iconSize="24dp"
         app:iconTint="@color/white" />

@@ -108,19 +108,19 @@ public class TwitterActivity extends AppCompatActivity {
 
 
         Glide.with(activity)
-                .load(R.drawable.tw1)
+                .load(R.drawable.tw1_rand)
                 .into(binding.layoutHowTo.imHowto1);
 
         Glide.with(activity)
-                .load(R.drawable.tw2)
+                .load(R.drawable.tw2_rand)
                 .into(binding.layoutHowTo.imHowto2);
 
         Glide.with(activity)
-                .load(R.drawable.tw3)
+                .load(R.drawable.tw3_rand)
                 .into(binding.layoutHowTo.imHowto3);
 
         Glide.with(activity)
-                .load(R.drawable.tw4)
+                .load(R.drawable.tw4_rand)
                 .into(binding.layoutHowTo.imHowto4);
 
 

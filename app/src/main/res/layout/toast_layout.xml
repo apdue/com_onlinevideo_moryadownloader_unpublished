@@ -7,7 +7,7 @@
         android:id="@+id/tvTitleToastLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rec_round_corner_primary"
+        android:background="@drawable/bg_rec_round_corner_primary_rand"
         android:gravity="center"
         android:paddingLeft="20.0dip"
         android:paddingRight="20.0dip"

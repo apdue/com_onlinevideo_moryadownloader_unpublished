@@ -73,12 +73,12 @@ public class StreamMiniInfoItemHolder extends InfoItemHolder {
 		
 		if (item.getDuration() > 0) {
 			itemDurationView.setText(Localization.getDurationString(item.getDuration()));
-			itemDurationView.setBackgroundResource(R.drawable.duration_background);
+			itemDurationView.setBackgroundResource(R.drawable.duration_background_rand);
 			itemDurationView.setVisibility(View.VISIBLE);
 		}
 		else if (item.getStreamType() == StreamType.LIVE_STREAM) {
 			itemDurationView.setText(R.string.duration_live);
-			itemDurationView.setBackgroundResource(R.drawable.duration_background_live);
+			itemDurationView.setBackgroundResource(R.drawable.duration_background_live_rand);
 			itemDurationView.setVisibility(View.VISIBLE);
 		}
 		else {

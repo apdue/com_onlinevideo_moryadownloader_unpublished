@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone"
-            android:src="@drawable/ic_play_circle_filled_black_24dp"
+            android:src="@drawable/ic_play_circle_filled_black_24dp_rand"
             android:layout_centerInParent="true"
             android:scaleType="centerInside" />
         </RelativeLayout>
@@ -42,7 +42,7 @@
             android:layout_marginTop="7dp"
             android:layout_marginEnd="5dp"
             android:layout_marginBottom="7dp"
-            android:background="@drawable/selected_tab"
+            android:background="@drawable/selected_tab_rand"
             android:fontFamily="@font/bold"
             android:gravity="center"
             android:padding="8dp"

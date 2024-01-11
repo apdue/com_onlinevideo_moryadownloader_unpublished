@@ -23,7 +23,7 @@
         android:inputType="textFilter|textNoSuggestions"
         android:maxLines="1"
         android:textColor="@color/white"
-        android:textCursorDrawable="@drawable/bg_cursor_edit_text"/>
+        android:textCursorDrawable="@drawable/bg_cursor_edit_text_rand"/>
 
     <FrameLayout
         android:id="@+id/toolbar_search_clear"
@@ -42,7 +42,7 @@
             android:layout_height="24dp"
             android:layout_gravity="center"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_close_white_24dp"/>
+            android:src="@drawable/ic_close_white_24dp_rand"/>
 
     </FrameLayout>
 

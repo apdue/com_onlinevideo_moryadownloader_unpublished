@@ -358,7 +358,7 @@ public class PlaylistFragment extends BaseListInfoFragment<PlaylistInfo> impleme
 		
 		if (playlistBookmarkButton == null || activity == null) return;
 		
-		final int iconAttr = playlistEntity == null ? R.drawable.ic_playlist_add_white_24dp : R.drawable.ic_playlist_add_check_white;
+		final int iconAttr = playlistEntity == null ? R.drawable.ic_playlist_add_white_24dp_rand : R.drawable.ic_playlist_add_check_white_rand;
 		
 		final int titleRes = playlistEntity == null ? R.string.bookmark_playlist : R.string.removed_playlist_from_bookmark;
 		

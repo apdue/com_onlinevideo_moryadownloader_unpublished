@@ -12,7 +12,7 @@
     android:layout_marginTop="15dp"
     android:layout_marginBottom="1dp"
     android:backgroundTint="#F9F9F9"
-    android:background="@drawable/custom_ripple"
+    android:background="@drawable/custom_ripple_rand"
     android:orientation="vertical"
    >
 
@@ -27,7 +27,7 @@
             android:layout_width="65.0dip"
             android:layout_height="65.0dip"
             android:padding="10dp"
-            app:srcCompat="@drawable/xic_video"
+            app:srcCompat="@drawable/xic_video_rand"
             app:tint="#E77363" />
 
         <TextView

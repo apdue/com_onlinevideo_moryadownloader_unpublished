@@ -13,6 +13,6 @@
         app:backgroundTint="@color/youtube_primary_color"
         app:borderWidth="0dp"
         app:fabSize="normal"
-        app:srcCompat="@drawable/ic_close_white_24dp" />
+        app:srcCompat="@drawable/ic_close_white_24dp_rand" />
 
 </FrameLayout>

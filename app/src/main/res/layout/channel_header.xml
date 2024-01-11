@@ -21,7 +21,7 @@
             android:layout_height="70dp"
             android:fitsSystemWindows="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/channel_banner" />
+            android:src="@drawable/channel_banner_rand" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/channel_avatar_view"
@@ -30,7 +30,7 @@
             android:layout_alignTop="@id/channel_banner_image"
             android:layout_marginStart="8dp"
             android:layout_marginTop="50dp"
-            android:src="@drawable/user_default" />
+            android:src="@drawable/user_default_rand" />
 
         <TextView
             android:id="@+id/channel_title_view"
@@ -77,7 +77,7 @@
             android:textSize="@dimen/channel_rss_title_size"
             android:visibility="gone"
             app:backgroundTint="@color/youtube_primary_color"
-            app:icon="@drawable/ic_subscriptions_white_24dp"
+            app:icon="@drawable/ic_subscriptions_white_24dp_rand"
             app:iconGravity="end"
             app:iconPadding="6dp"
             app:iconSize="18dp"

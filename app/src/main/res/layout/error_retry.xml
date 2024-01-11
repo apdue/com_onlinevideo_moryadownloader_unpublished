@@ -30,7 +30,7 @@
         android:textColor="@color/white"
         android:textSize="16sp"
         app:backgroundTint="@color/youtube_primary_color"
-        app:icon="@drawable/ic_replay_white"
+        app:icon="@drawable/ic_replay_white_rand"
         app:iconPadding="6dp"
         app:iconTint="@color/white"
         app:rippleColor="#520070ba"/>

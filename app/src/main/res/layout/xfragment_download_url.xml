@@ -11,7 +11,7 @@
         android:layout_height="43.0dip"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20.0dip"
-        android:background="@drawable/xradius_btn"
+        android:background="@drawable/xradius_btn_rand"
         android:paddingLeft="30.0dip"
         android:paddingRight="30.0dip"
         android:text="Download"

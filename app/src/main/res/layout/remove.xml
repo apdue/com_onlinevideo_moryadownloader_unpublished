@@ -8,5 +8,5 @@
         android:id="@+id/remove_img"
         android:layout_width="60.0dip"
         android:layout_height="60.0dip"
-        app:srcCompat="@drawable/cross" />
+        app:srcCompat="@drawable/cross_rand" />
 </RelativeLayout>

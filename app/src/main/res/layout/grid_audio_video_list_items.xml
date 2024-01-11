@@ -5,7 +5,7 @@
     android:id="@+id/relativeLayout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/custom_ripple"
+    android:background="@drawable/custom_ripple_rand"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="13.0dip">
@@ -22,7 +22,7 @@
             android:id="@+id/videoThumbnail"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:src="@drawable/ic_play_arrow"
+            android:src="@drawable/ic_play_arrow_rand"
             tools:ignore="VectorDrawableCompat" />
 
         <TextView
@@ -60,7 +60,7 @@
         android:layout_below="@+id/cardView"
         android:layout_alignParentRight="true"
         android:layout_marginTop="10.0dip"
-        android:src="@drawable/ic_more_vert_black_24dp"
+        android:src="@drawable/ic_more_vert_black_24dp_rand"
         tools:ignore="VectorDrawableCompat" />
 
     <Button
@@ -71,7 +71,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10.0dip"
         android:background="@color/colorGreen"
-        android:src="@drawable/ic_cloud_download_black_24dp"
+        android:src="@drawable/ic_cloud_download_black_24dp_rand"
         android:text="Save"
         android:textColor="#ffffffff"
         android:visibility="gone" />

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.video.victusadownloaders.additionalscreens.DummySixScr">
+    tools:context="com.video.victusadownloaders.additionalscreens.DummySixScrRand">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
                 android:layout_height="200dp"
                 android:layout_marginTop="20dp"
                 android:adjustViewBounds="true"
-                android:src="@drawable/img10" />
+                android:src="@drawable/img10_rand" />
 
 
             <androidx.cardview.widget.CardView
@@ -48,7 +48,7 @@
                     android:layout_height="match_parent"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/prime_gradient" />
+                    android:src="@drawable/prime_gradient_rand" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -66,7 +66,7 @@
                         android:layout_marginTop="15dp"
                         android:layout_marginEnd="15dp"
                         android:layout_marginBottom="15dp"
-                        android:src="@drawable/vid_icn"
+                        android:src="@drawable/vid_icn_rand"
                         android:tint="@color/white" />
 
                     <LinearLayout
@@ -104,8 +104,8 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/right"
-                    android:background="@drawable/white_circle"
+                    android:src="@drawable/right_rand"
+                    android:background="@drawable/white_circle_rand"
                     android:tint="@color/colorPrimary"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="15dp"
@@ -115,7 +115,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/white_circle"
+                    android:src="@drawable/white_circle_rand"
                     android:layout_gravity="end"
                     android:layout_marginTop="-40dp"
                     android:layout_marginEnd="-30dp"
@@ -129,13 +129,13 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="-60dp"
                     android:alpha="0.2"
-                    android:src="@drawable/white_circle" />
+                    android:src="@drawable/white_circle_rand" />
 
 
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/sparkler"
+                    android:src="@drawable/sparkler_rand"
                     android:layout_gravity="end"
                     android:tint="@color/white"
                     android:layout_marginEnd="20dp"
@@ -176,7 +176,7 @@
                     android:layout_height="200dp"
                     android:layout_marginTop="10dp"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/img10" />
+                    android:src="@drawable/img10_rand" />
 
             </LinearLayout>
 

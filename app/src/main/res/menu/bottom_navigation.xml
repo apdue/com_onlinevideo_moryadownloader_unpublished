@@ -3,11 +3,11 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/video_fragment"
-            android:icon="@drawable/xic_video"
+            android:icon="@drawable/xic_video_rand"
             android:title="Video" />
         <item
             android:id="@+id/audio_fragment"
-            android:icon="@drawable/ic_music"
+            android:icon="@drawable/ic_music_rand"
             android:title="Audio" />
         <item
             android:id="@+id/hotvideo"
@@ -15,7 +15,7 @@
             android:title=" " />
         <item
             android:id="@+id/gallery"
-            android:icon="@drawable/ic_gallery"
+            android:icon="@drawable/ic_gallery_rand"
             android:title="Gallery" />
     </group>
 </menu>

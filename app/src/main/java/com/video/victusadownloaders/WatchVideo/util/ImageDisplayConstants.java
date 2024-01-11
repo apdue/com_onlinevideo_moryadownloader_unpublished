@@ -25,7 +25,7 @@ public class ImageDisplayConstants {
 	public static final DisplayImageOptions DISPLAY_THUMBNAIL_OPTIONS =
 			new DisplayImageOptions.Builder()
 					.cloneFrom(BASE_DISPLAY_IMAGE_OPTIONS)
-					.showImageForEmptyUri(R.drawable.no_image)
-					.showImageOnFail(R.drawable.no_image)
+					.showImageForEmptyUri(R.drawable.no_image_rand)
+					.showImageOnFail(R.drawable.no_image_rand)
 					.build();
 }
